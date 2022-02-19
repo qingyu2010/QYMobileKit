@@ -25,6 +25,7 @@
 		D02F266B27C083D300AD7430 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D02F266A27C083D300AD7430 /* Settings.bundle */; };
 		D02F267E27C10D9600AD7430 /* QYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F267D27C10D9600AD7430 /* QYMainVC.m */; };
 		D02F268427C11BE200AD7430 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F268227C11BE200AD7430 /* QYTimerVC.m */; };
+		D02F268727C1446000AD7430 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F268627C1446000AD7430 /* QYFileManagerVC.m */; };
 		F10A2DD8E861780ECDAB3D3B /* Pods_QYMobileKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		D02F267D27C10D9600AD7430 /* QYMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYMainVC.m; sourceTree = "<group>"; };
 		D02F268227C11BE200AD7430 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
 		D02F268327C11BE200AD7430 /* QYTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimerVC.h; sourceTree = "<group>"; };
+		D02F268527C1446000AD7430 /* QYFileManagerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYFileManagerVC.h; sourceTree = "<group>"; };
+		D02F268627C1446000AD7430 /* QYFileManagerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
 		D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B9475C58437CF4ECBED505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 			children = (
 				D02F268327C11BE200AD7430 /* QYTimerVC.h */,
 				D02F268227C11BE200AD7430 /* QYTimerVC.m */,
+				D02F268527C1446000AD7430 /* QYFileManagerVC.h */,
+				D02F268627C1446000AD7430 /* QYFileManagerVC.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 				D02F267E27C10D9600AD7430 /* QYMainVC.m in Sources */,
 				D02F268427C11BE200AD7430 /* QYTimerVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D02F268727C1446000AD7430 /* QYFileManagerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,11 +6,7 @@
 //  Copyright © 2022 qingyu2010. All rights reserved.
 //
 
-#import "QYFilePath.h"
-
-@implementation QYFilePath
-
-@end
+#import "QYPathUtilities.h"
 
 
 NSString* QYHomeDirectory(void) {
@@ -22,7 +18,11 @@ NSString* QYDocumentDirectory(void) {
 }
 
 NSString* QYLibraryDirectory(void) {
-    return [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject];
+    return [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
+}
+
+NSString* QYCachesDirectory(void) {
+    return [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
 }
 
 NSString* QYTemporaryDirectory(void) {

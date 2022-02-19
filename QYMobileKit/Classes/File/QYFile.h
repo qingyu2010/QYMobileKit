@@ -9,6 +9,6 @@
 #ifndef QYFile_h
 #define QYFile_h
 
-#import "QYFilePath.h"
+#import "QYPathUtilities.h"
 
 #endif /* QYFile_h */

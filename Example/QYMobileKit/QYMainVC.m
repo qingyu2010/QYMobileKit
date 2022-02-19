@@ -29,7 +29,7 @@
 }
 
 - (void)initSourcesData {
-    self.sourcesArray = @[@"QYTimerVC"];
+    self.sourcesArray = @[@"QYTimerVC",@"QYFileManagerVC"];
 }
 #pragma mark - Table view data source
 

@@ -11,11 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-
-@interface QYFilePath : NSObject
-
-@end
-
 /**返回沙盒容器根目录*/
 NSString* QYHomeDirectory(void);
 
@@ -24,6 +19,9 @@ NSString* QYDocumentDirectory(void);
 
 /**返回沙盒Library目录*/
 NSString* QYLibraryDirectory(void);
+
+/**返回沙盒Caches目录*/
+NSString* QYCachesDirectory(void);
 
 /**返回沙盒Temporary目录*/
 NSString* QYTemporaryDirectory(void);
