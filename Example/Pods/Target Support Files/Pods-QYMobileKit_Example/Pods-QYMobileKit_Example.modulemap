@@ -1,0 +1,6 @@
+framework module Pods_QYMobileKit_Example {
+  umbrella header "Pods-QYMobileKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

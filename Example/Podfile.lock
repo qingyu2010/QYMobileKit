@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QYMobileKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QYMobileKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QYMobileKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QYMobileKit: 7252504b7908aee61e56b73df10f35c31789e888
+
+PODFILE CHECKSUM: 4259cf057b8a220dc899c7c8b778ecbaefdc75e1
+
+COCOAPODS: 1.11.2

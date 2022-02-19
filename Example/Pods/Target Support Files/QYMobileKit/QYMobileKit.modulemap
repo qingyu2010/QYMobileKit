@@ -1,0 +1,6 @@
+framework module QYMobileKit {
+  umbrella header "QYMobileKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
