@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "QYFile.h"
+#import "QYFilePath.h"
 
 FOUNDATION_EXPORT double QYMobileKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYMobileKitVersionString[];
