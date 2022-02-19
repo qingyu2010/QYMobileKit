@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/qingyu2010/QYMobileKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'qingyu2010' => 'peter.wen@razer.com' }
+  s.author           = { 'qingyu2010' => '578622889@qq.com' }
   s.source           = { :git => 'https://github.com/qingyu2010/QYMobileKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

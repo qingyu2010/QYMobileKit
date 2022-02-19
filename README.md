@@ -22,7 +22,7 @@ pod 'QYMobileKit'
 
 ## Author
 
-qingyu2010, peter.wen@razer.com
+qingyu2010, 578622889@qq.com
 
 ## License
 
