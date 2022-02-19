@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QYMobileKit_Example' do
+  pod 'QYMobileKit', :path => '../'
+
+  target 'QYMobileKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
