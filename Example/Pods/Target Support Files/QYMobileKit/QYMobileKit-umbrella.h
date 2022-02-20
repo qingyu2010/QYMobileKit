@@ -11,6 +11,7 @@
 #endif
 
 #import "QYFile.h"
+#import "QYFileManager.h"
 #import "QYPathUtilities.h"
 
 FOUNDATION_EXPORT double QYMobileKitVersionNumber;

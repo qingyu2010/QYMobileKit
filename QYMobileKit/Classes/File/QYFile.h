@@ -10,5 +10,6 @@
 #define QYFile_h
 
 #import "QYPathUtilities.h"
+#import "QYFileManager.h"
 
 #endif /* QYFile_h */
