@@ -7,27 +7,47 @@
 //
 
 #import "QYTimerVC.h"
+#import <QYMobileKit/QYTimer.h>
 
 @interface QYTimerVC ()
 
+@property (nonatomic, strong) NSTimer *sysTimer;
+@property (nonatomic, strong) QYTimer *qyTimer;
 @end
 
 @implementation QYTimerVC
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)startNSTimer:(id)sender {
+    NSLog(@"begin Timer");
+    self.sysTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        NSLog(@"%@",[NSThread currentThread]);
+    }];
 }
-*/
 
+- (IBAction)startQYTimer:(id)sender {
+    NSLog(@"begin Timer");
+    self.qyTimer = [QYTimer timerWithTimeInterval:1.0 repeats:YES block:^(QYTimer * _Nonnull timer) {
+        NSLog(@"%@",[NSThread currentThread]);
+    }];
+}
+- (IBAction)blockUI:(id)sender {
+    while (1) {
+        
+    }
+}
+
+- (void)dealloc {
+    if (self.sysTimer) {
+        [self.sysTimer invalidate];
+    }
+    if (self.qyTimer) {
+        [self.qyTimer invalidate];
+    }
+    NSLog(@"==== dealloc");
+}
 @end

@@ -7,102 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045E96DF499C62FAD4BC49C378888777 /* QYMobileKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F545AE7F5C919828D74F8C97885E6070 /* QYMobileKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		122EE97EBBACEFAFC6F3EDD0F3AF85B3 /* Pods-QYMobileKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364687786CA1D53F36847298C669A3AE /* Pods-QYMobileKit_Tests-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2224A04E85E2779B121AA90F6202F31C /* QYPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0511BE7D85FFE9EF7EB49F157F031851 /* QYPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		317CCB0A0EB43351885C2931B757B9F7 /* QYMobileKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A1A3FB18F56382687469EA5C0D4ADE /* QYMobileKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		502E667BF0E20AD6B1F9E9CEACE536BC /* QYFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5DF8E58DB63CF8A2A6F3A7A6173F3B /* QYFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493883443ADC3E9B0D3B7E2A45A15D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		53D5F3BA658F6F6A84EF1B00CF52FEED /* Pods-QYMobileKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F2E01539BFA1F92124C4136254C30E /* Pods-QYMobileKit_Example-dummy.m */; };
-		5447F35B01A63982CC289207CFD41F76 /* QYMobileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF52EC4C3105145CA96D94998642B620 /* QYMobileKit-dummy.m */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		58AE78D3B9BFAE9C79AFCD43927A0A57 /* Pods-QYMobileKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29926A139369739BFAB5160C59287228 /* Pods-QYMobileKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B86F8771DC9DAA444815C88C385F15B /* QYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A63F2DE33A460068AEA190B0BF9C2151 /* QYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		635E60FFCDE44657C3C93B9047CE1B69 /* QYPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 659666E26254F21D66426A504BF0AE3A /* QYPathUtilities.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6E5C25406783A5BB74B466C0E3974138 /* QYPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3241D44CB6099E1A036AF20DB3E0B /* QYPathUtilities.m */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7A4A5738B4D717172C14CAEA46474610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BEBEB51F76079EC8DECE9C450CB6286 /* QYMobileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23848CAEE4CF57A524E9A8E60740FBE1 /* QYMobileKit-dummy.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		B26C0F2B3EEA6B8FE48B7973D9F48A41 /* QYFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 483677910292A98B9E273841D275B85C /* QYFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3BB41A8376D65111ACC8384AE931204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		A6D37EDD3243F05BCEE5E34733DC2A15 /* QYFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CA069749E09FB0E6CAB9C9C3F693597C /* QYFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC20A488E73AA3936380B7F668809990 /* QYFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A58F6BD9319F1F12EC1F3402CA7BCC67 /* QYFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BC5A90C6B5917C491CC1D00084F2D5CF /* QYPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 514C0E8820C7561C34F09F0CA48A3547 /* QYPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDFA17D3A20E76D275D7BC5166411777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		C05D12FAF44641E241E1D0951002F8AB /* QYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5DFA366186CDC3913F50077CA992F /* QYFileManager.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C437643AF834D239DEA9CD501C05446C /* QYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E127D95CA552E6FE02F28FA3F757A /* QYTimer.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		D537029AACDFDF1E3E22BE59B23DC193 /* QYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA589A34148354FE362ED9682928FA66 /* QYFileManager.m */; };
 		E5792988F175ED5BB1AF4169CAD499D7 /* Pods-QYMobileKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B468BBCAEC37E0B0C5C3BB2282D12 /* Pods-QYMobileKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1550D10560D468A248FC3BF96FCF7F81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4027D2EBDD6256E5F4FE5A7B4C2D798;
-			remoteInfo = "Pods-QYMobileKit_Example";
-		};
-		948604C65DC1C9C246DE4A1107518ED8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B408A60A70F0EAEAD785B6F53AACB7B;
-			remoteInfo = QYMobileKit;
-		};
-		BD67E68702902399282B855FAFADC08C /* PBXContainerItemProxy */ = {
+		21D6EB8C7960738FE73F4767CFDEB185 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		7512D26758BA2F2D36D3E11965BBEEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B408A60A70F0EAEAD785B6F53AACB7B;
+			remoteInfo = QYMobileKit;
+		};
+		F32E9A75D181EDABB7AF40983539A156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4027D2EBDD6256E5F4FE5A7B4C2D798;
+			remoteInfo = "Pods-QYMobileKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00B5F189B4E81D99AEF3674768446F27 /* Pods-QYMobileKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYMobileKit_Tests.modulemap"; sourceTree = "<group>"; };
+		00ECBA8B563ED1D9168F1C5C3F729FFD /* QYMobileKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-prefix.pch"; sourceTree = "<group>"; };
+		01A3241D44CB6099E1A036AF20DB3E0B /* QYPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYPathUtilities.m; sourceTree = "<group>"; };
+		0511BE7D85FFE9EF7EB49F157F031851 /* QYPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYPathUtilities.h; sourceTree = "<group>"; };
+		070AE271CDEC2631881B1E3BFC3059F7 /* QYMobileKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYMobileKit-Info.plist"; sourceTree = "<group>"; };
 		0C9DDD6885771271795D69E3F0F83AC1 /* Pods-QYMobileKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYMobileKit_Example"; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		0F5AD4C37448BF2F81AEE32021559687 /* QYMobileKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYMobileKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		109CD978A2E2E1D469FB1FA368F1DC44 /* Pods-QYMobileKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYMobileKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A0E127D95CA552E6FE02F28FA3F757A /* QYTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYTimer.m; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		220B468BBCAEC37E0B0C5C3BB2282D12 /* Pods-QYMobileKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYMobileKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		23848CAEE4CF57A524E9A8E60740FBE1 /* QYMobileKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYMobileKit-dummy.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		29926A139369739BFAB5160C59287228 /* Pods-QYMobileKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYMobileKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		364687786CA1D53F36847298C669A3AE /* Pods-QYMobileKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYMobileKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		3E6313101AEC587A949DE8D5715E1AD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3ED5DFA366186CDC3913F50077CA992F /* QYFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYFileManager.m; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3F9A891FF00018953183E2615A54DDEA /* Pods-QYMobileKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYMobileKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		43844FE232D8CCF6239DABE0DFBBF405 /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		45E1447724AD3F33FEF0A49E6D9C40AD /* Pods-QYMobileKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYMobileKit_Example-Info.plist"; sourceTree = "<group>"; };
-		483677910292A98B9E273841D275B85C /* QYFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYFile.h; path = QYMobileKit/Classes/File/QYFile.h; sourceTree = "<group>"; };
 		4BA382079FA9C896F095DB489BCA404B /* Pods-QYMobileKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYMobileKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		5009FA5EBF5C8EE99008FD991C011793 /* QYMobileKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYMobileKit.release.xcconfig; sourceTree = "<group>"; };
-		514C0E8820C7561C34F09F0CA48A3547 /* QYPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPathUtilities.h; path = QYMobileKit/Classes/File/QYPathUtilities.h; sourceTree = "<group>"; };
-		52CB5F1DF8D2324F3BBC6DB131CB96E0 /* QYMobileKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-prefix.pch"; sourceTree = "<group>"; };
+		51A4C29A0DF177869B6F012E51A6E9D7 /* QYMobileKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYMobileKit.modulemap; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		659666E26254F21D66426A504BF0AE3A /* QYPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYPathUtilities.m; path = QYMobileKit/Classes/File/QYPathUtilities.m; sourceTree = "<group>"; };
 		6745EFFA3A7CBE99CB6CEEB55E191491 /* Pods-QYMobileKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYMobileKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		67F2E01539BFA1F92124C4136254C30E /* Pods-QYMobileKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYMobileKit_Example-dummy.m"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6DE4036A7D34D733E9A8F5039DD7CC62 /* QYMobileKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYMobileKit.debug.xcconfig; sourceTree = "<group>"; };
 		71E5DE96FCFA87BB6565A570FD17608D /* Pods-QYMobileKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYMobileKit_Tests"; path = Pods_QYMobileKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE6BA5D700E5242CE9647D3842C4F07 /* QYMobileKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYMobileKit.release.xcconfig; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		86D6D1446D85EDCD9D4072802247290B /* QYMobileKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYMobileKit; path = QYMobileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -110,28 +115,27 @@
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		99A1A3FB18F56382687469EA5C0D4ADE /* QYMobileKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-umbrella.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A58F6BD9319F1F12EC1F3402CA7BCC67 /* QYFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYFileManager.h; sourceTree = "<group>"; };
+		A63F2DE33A460068AEA190B0BF9C2151 /* QYTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYTimer.h; sourceTree = "<group>"; };
+		A9ECA0153CFCB208608BA3433EA17C77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AA4ECA6007DDE7B2A537AC411A12D20D /* Pods-QYMobileKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYMobileKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B699161E2C100D2854D7F09CC94E109C /* Pods-QYMobileKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYMobileKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BAA74264EF99FA53E64299AB79F85DEA /* Pods-QYMobileKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYMobileKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		BAAED5BFFFD8AA80CB58E2A49E8973E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BFF33837D99E60F767B9C7C1A5D9561E /* Pods-QYMobileKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYMobileKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F6380360E10B3EE128BC1764026077 /* QYMobileKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYMobileKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C45546EFF114CFE0D9C9D61E7EAE54AD /* Pods-QYMobileKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYMobileKit_Example.modulemap"; sourceTree = "<group>"; };
-		CAA0C76C3A75AC37B6049950952FB54E /* QYMobileKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYMobileKit.debug.xcconfig; sourceTree = "<group>"; };
+		CA069749E09FB0E6CAB9C9C3F693597C /* QYFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYFile.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CD8EF88DE71C1D56EED0D0CC481FE042 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CF52EC4C3105145CA96D94998642B620 /* QYMobileKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYMobileKit-dummy.m"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DA589A34148354FE362ED9682928FA66 /* QYFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYFileManager.m; path = QYMobileKit/Classes/File/QYFileManager.m; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E9A5FA86D8CC25D0DE12D6FE9C275B49 /* Pods-QYMobileKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYMobileKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EB146BB7B4312B1018A3535BD0A94212 /* QYMobileKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYMobileKit-Info.plist"; sourceTree = "<group>"; };
-		F481F2D9995F2F6BF3F286BAFCD81F6E /* QYMobileKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYMobileKit.modulemap; sourceTree = "<group>"; };
-		FC5DF8E58DB63CF8A2A6F3A7A6173F3B /* QYFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYFileManager.h; path = QYMobileKit/Classes/File/QYFileManager.h; sourceTree = "<group>"; };
+		F545AE7F5C919828D74F8C97885E6070 /* QYMobileKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-umbrella.h"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,11 +148,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75FF10191E2C20D81F8633788CB7D025 /* Frameworks */ = {
+		6296CF264AA6E1239862BEA45316C7A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BB41A8376D65111ACC8384AE931204 /* Foundation.framework in Frameworks */,
+				493883443ADC3E9B0D3B7E2A45A15D71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,21 +178,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08ABD3A449555D6564F89D0B2CE3F9CF /* QYMobileKit */ = {
-			isa = PBXGroup;
-			children = (
-				483677910292A98B9E273841D275B85C /* QYFile.h */,
-				FC5DF8E58DB63CF8A2A6F3A7A6173F3B /* QYFileManager.h */,
-				DA589A34148354FE362ED9682928FA66 /* QYFileManager.m */,
-				514C0E8820C7561C34F09F0CA48A3547 /* QYPathUtilities.h */,
-				659666E26254F21D66426A504BF0AE3A /* QYPathUtilities.m */,
-				5E1B0AA9123750FBE5C54A92D71003BD /* Pod */,
-				7BCBE58380945310047A6FA8388E6DB0 /* Support Files */,
-			);
-			name = QYMobileKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		17954CEABB7A1491232D0C22EC271F47 /* Pods-QYMobileKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,14 +193,6 @@
 			);
 			name = "Pods-QYMobileKit_Example";
 			path = "Target Support Files/Pods-QYMobileKit_Example";
-			sourceTree = "<group>";
-		};
-		450C9A0F07E17B1F383A59CDF8E48C73 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				08ABD3A449555D6564F89D0B2CE3F9CF /* QYMobileKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -235,29 +216,32 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5E1B0AA9123750FBE5C54A92D71003BD /* Pod */ = {
+		5E1AA821C01FBF0164E6747C78B70012 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3E6313101AEC587A949DE8D5715E1AD5 /* LICENSE */,
-				0F5AD4C37448BF2F81AEE32021559687 /* QYMobileKit.podspec */,
-				CD8EF88DE71C1D56EED0D0CC481FE042 /* README.md */,
+				A9ECA0153CFCB208608BA3433EA17C77 /* LICENSE */,
+				C1F6380360E10B3EE128BC1764026077 /* QYMobileKit.podspec */,
+				BAAED5BFFFD8AA80CB58E2A49E8973E7 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7BCBE58380945310047A6FA8388E6DB0 /* Support Files */ = {
+		65E4CC51F72916ADBF01B0A0C4584754 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F481F2D9995F2F6BF3F286BAFCD81F6E /* QYMobileKit.modulemap */,
-				CF52EC4C3105145CA96D94998642B620 /* QYMobileKit-dummy.m */,
-				EB146BB7B4312B1018A3535BD0A94212 /* QYMobileKit-Info.plist */,
-				52CB5F1DF8D2324F3BBC6DB131CB96E0 /* QYMobileKit-prefix.pch */,
-				99A1A3FB18F56382687469EA5C0D4ADE /* QYMobileKit-umbrella.h */,
-				CAA0C76C3A75AC37B6049950952FB54E /* QYMobileKit.debug.xcconfig */,
-				5009FA5EBF5C8EE99008FD991C011793 /* QYMobileKit.release.xcconfig */,
+				BB733F3DEEAB030E4614BF38F9B20C6B /* QYMobileKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QYMobileKit";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		74C82327D148A18BE1EC0F335E308A42 /* QYTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A63F2DE33A460068AEA190B0BF9C2151 /* QYTimer.h */,
+				1A0E127D95CA552E6FE02F28FA3F757A /* QYTimer.m */,
+			);
+			name = QYTimer;
+			path = QYMobileKit/Classes/QYTimer;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -279,6 +263,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		986C87D7C17D3B9AD7055A357A0B622D /* QYFile */ = {
+			isa = PBXGroup;
+			children = (
+				CA069749E09FB0E6CAB9C9C3F693597C /* QYFile.h */,
+				A58F6BD9319F1F12EC1F3402CA7BCC67 /* QYFileManager.h */,
+				3ED5DFA366186CDC3913F50077CA992F /* QYFileManager.m */,
+				0511BE7D85FFE9EF7EB49F157F031851 /* QYPathUtilities.h */,
+				01A3241D44CB6099E1A036AF20DB3E0B /* QYPathUtilities.m */,
+			);
+			name = QYFile;
+			path = QYMobileKit/Classes/QYFile;
+			sourceTree = "<group>";
+		};
 		997416961F4A5997199AC94370389C65 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +283,21 @@
 				B67AB7C1E68117D53DD3511AE4600FA3 /* Pods-QYMobileKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2110040C4320E7F3B691AB811706F71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51A4C29A0DF177869B6F012E51A6E9D7 /* QYMobileKit.modulemap */,
+				23848CAEE4CF57A524E9A8E60740FBE1 /* QYMobileKit-dummy.m */,
+				070AE271CDEC2631881B1E3BFC3059F7 /* QYMobileKit-Info.plist */,
+				00ECBA8B563ED1D9168F1C5C3F729FFD /* QYMobileKit-prefix.pch */,
+				F545AE7F5C919828D74F8C97885E6070 /* QYMobileKit-umbrella.h */,
+				6DE4036A7D34D733E9A8F5039DD7CC62 /* QYMobileKit.debug.xcconfig */,
+				7AE6BA5D700E5242CE9647D3842C4F07 /* QYMobileKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QYMobileKit";
 			sourceTree = "<group>";
 		};
 		B67AB7C1E68117D53DD3511AE4600FA3 /* Pods-QYMobileKit_Tests */ = {
@@ -328,6 +340,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB733F3DEEAB030E4614BF38F9B20C6B /* QYMobileKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AA821C01FBF0164E6747C78B70012 /* Pod */,
+				986C87D7C17D3B9AD7055A357A0B622D /* QYFile */,
+				74C82327D148A18BE1EC0F335E308A42 /* QYTimer */,
+				B2110040C4320E7F3B691AB811706F71 /* Support Files */,
+			);
+			name = QYMobileKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,7 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				450C9A0F07E17B1F383A59CDF8E48C73 /* Development Pods */,
+				65E4CC51F72916ADBF01B0A0C4584754 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				9775B1CA8D5DAA1595C775237FAADD08 /* Products */,
@@ -373,17 +397,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		62DD8C1781337A365D62A27ECA4639AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B26C0F2B3EEA6B8FE48B7973D9F48A41 /* QYFile.h in Headers */,
-				502E667BF0E20AD6B1F9E9CEACE536BC /* QYFileManager.h in Headers */,
-				317CCB0A0EB43351885C2931B757B9F7 /* QYMobileKit-umbrella.h in Headers */,
-				BC5A90C6B5917C491CC1D00084F2D5CF /* QYPathUtilities.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C411AC64F8A5D06D7BA4724FED83397B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +420,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E99131C92899E296CA04DC2B7B2F7F5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D37EDD3243F05BCEE5E34733DC2A15 /* QYFile.h in Headers */,
+				AC20A488E73AA3936380B7F668809990 /* QYFileManager.h in Headers */,
+				045E96DF499C62FAD4BC49C378888777 /* QYMobileKit-umbrella.h in Headers */,
+				2224A04E85E2779B121AA90F6202F31C /* QYPathUtilities.h in Headers */,
+				5B86F8771DC9DAA444815C88C385F15B /* QYTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9467845425D19B49DDF8EC9E92A9948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,12 +445,12 @@
 /* Begin PBXNativeTarget section */
 		6B408A60A70F0EAEAD785B6F53AACB7B /* QYMobileKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9670250D1A4DE9C7B3691EFD89FF28B0 /* Build configuration list for PBXNativeTarget "QYMobileKit" */;
+			buildConfigurationList = 6D04F50162B93403AD6B31D33A0744A0 /* Build configuration list for PBXNativeTarget "QYMobileKit" */;
 			buildPhases = (
-				62DD8C1781337A365D62A27ECA4639AF /* Headers */,
-				669FCBB82C57CD9D6D794EE3D5519454 /* Sources */,
-				75FF10191E2C20D81F8633788CB7D025 /* Frameworks */,
-				0F16B00392839A1F2ABAEEAF871B0BF4 /* Resources */,
+				E99131C92899E296CA04DC2B7B2F7F5B /* Headers */,
+				223B0951349E4B51C50B7FC4B34562B1 /* Sources */,
+				6296CF264AA6E1239862BEA45316C7A2 /* Frameworks */,
+				85C3E93454BA3B95668803ADA594B185 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -466,7 +491,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7FA9140F5D7664C119F06F029D71F710 /* PBXTargetDependency */,
+				380214F330BC8169FB0BA70E2A93903B /* PBXTargetDependency */,
 			);
 			name = "Pods-QYMobileKit_Example";
 			productName = Pods_QYMobileKit_Example;
@@ -485,8 +510,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				6176A186C21DAC4074D842E0BCE859A0 /* PBXTargetDependency */,
-				3E9390B6F31B5A483F0F8BA648464FEC /* PBXTargetDependency */,
+				C623ED2E926A64E8FA005316B7743BCD /* PBXTargetDependency */,
+				62F9D20F021B9F4CD81501E27397A07F /* PBXTargetDependency */,
 			);
 			name = "Pods-QYMobileKit_Tests";
 			productName = Pods_QYMobileKit_Tests;
@@ -524,13 +549,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F16B00392839A1F2ABAEEAF871B0BF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		103B2DA44B6F8BD7FC58D2DBEFFAB8AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -539,6 +557,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C3E93454BA3B95668803ADA594B185 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -555,13 +580,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		669FCBB82C57CD9D6D794EE3D5519454 /* Sources */ = {
+		223B0951349E4B51C50B7FC4B34562B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D537029AACDFDF1E3E22BE59B23DC193 /* QYFileManager.m in Sources */,
-				5447F35B01A63982CC289207CFD41F76 /* QYMobileKit-dummy.m in Sources */,
-				635E60FFCDE44657C3C93B9047CE1B69 /* QYPathUtilities.m in Sources */,
+				C05D12FAF44641E241E1D0951002F8AB /* QYFileManager.m in Sources */,
+				8BEBEB51F76079EC8DECE9C450CB6286 /* QYMobileKit-dummy.m in Sources */,
+				6E5C25406783A5BB74B466C0E3974138 /* QYPathUtilities.m in Sources */,
+				C437643AF834D239DEA9CD501C05446C /* QYTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,23 +626,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E9390B6F31B5A483F0F8BA648464FEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-QYMobileKit_Example";
-			target = C4027D2EBDD6256E5F4FE5A7B4C2D798 /* Pods-QYMobileKit_Example */;
-			targetProxy = 1550D10560D468A248FC3BF96FCF7F81 /* PBXContainerItemProxy */;
-		};
-		6176A186C21DAC4074D842E0BCE859A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = BD67E68702902399282B855FAFADC08C /* PBXContainerItemProxy */;
-		};
-		7FA9140F5D7664C119F06F029D71F710 /* PBXTargetDependency */ = {
+		380214F330BC8169FB0BA70E2A93903B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QYMobileKit;
 			target = 6B408A60A70F0EAEAD785B6F53AACB7B /* QYMobileKit */;
-			targetProxy = 948604C65DC1C9C246DE4A1107518ED8 /* PBXContainerItemProxy */;
+			targetProxy = 7512D26758BA2F2D36D3E11965BBEEBE /* PBXContainerItemProxy */;
+		};
+		62F9D20F021B9F4CD81501E27397A07F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QYMobileKit_Example";
+			target = C4027D2EBDD6256E5F4FE5A7B4C2D798 /* Pods-QYMobileKit_Example */;
+			targetProxy = F32E9A75D181EDABB7AF40983539A156 /* PBXContainerItemProxy */;
+		};
+		C623ED2E926A64E8FA005316B7743BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 21D6EB8C7960738FE73F4767CFDEB185 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -718,9 +744,9 @@
 			};
 			name = Debug;
 		};
-		36261562AABB70E46339C18C6CE19AF0 /* Debug */ = {
+		270A40D346513A802A05BB1E6474838C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA0C76C3A75AC37B6049950952FB54E /* QYMobileKit.debug.xcconfig */;
+			baseConfigurationReference = 6DE4036A7D34D733E9A8F5039DD7CC62 /* QYMobileKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -970,9 +996,9 @@
 			};
 			name = Release;
 		};
-		FACCD0506231F4CC3E8471D911A97480 /* Release */ = {
+		F9031B3BDCE2DB153EED145E17773238 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5009FA5EBF5C8EE99008FD991C011793 /* QYMobileKit.release.xcconfig */;
+			baseConfigurationReference = 7AE6BA5D700E5242CE9647D3842C4F07 /* QYMobileKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1022,11 +1048,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9670250D1A4DE9C7B3691EFD89FF28B0 /* Build configuration list for PBXNativeTarget "QYMobileKit" */ = {
+		6D04F50162B93403AD6B31D33A0744A0 /* Build configuration list for PBXNativeTarget "QYMobileKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36261562AABB70E46339C18C6CE19AF0 /* Debug */,
-				FACCD0506231F4CC3E8471D911A97480 /* Release */,
+				270A40D346513A802A05BB1E6474838C /* Debug */,
+				F9031B3BDCE2DB153EED145E17773238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,6 +13,7 @@
 #import "QYFile.h"
 #import "QYFileManager.h"
 #import "QYPathUtilities.h"
+#import "QYTimer.h"
 
 FOUNDATION_EXPORT double QYMobileKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYMobileKitVersionString[];

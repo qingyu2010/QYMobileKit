@@ -55,7 +55,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *className = [self.sourcesArray objectAtIndex:indexPath.row];
-    UIViewController *vc = [[NSClassFromString(className) alloc] init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:className];
     vc.title = className;
     [self.navigationController pushViewController:vc animated:YES];
 }
