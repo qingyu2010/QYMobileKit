@@ -19,7 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - QYMobileKit (0.4.0):
+  - QYMobileKit (0.4.1):
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QYMobileKit: 0be8efd7c0b1e5a7a9936a9a875f09d77ffa1ad8
+  QYMobileKit: 460e9bbdb7aa3b3aa130cd790c2b88e128dcfe1b
 
 PODFILE CHECKSUM: 4259cf057b8a220dc899c7c8b778ecbaefdc75e1
 

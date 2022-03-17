@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QYBundleUtilities.h"
 #import "QYDeviceUtilities.h"
 #import "QYKeyChainUtilities.h"
 #import "QYFile.h"
