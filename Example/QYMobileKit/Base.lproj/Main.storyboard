@@ -65,8 +65,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmn-Nf-6GW">
-                                <rect key="frame" x="112" y="136" width="116" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmn-Nf-6GW">
+                                <rect key="frame" x="129.5" y="70" width="116" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start NSTimer"/>
                                 <connections>
@@ -81,22 +81,42 @@
                                     <action selector="startQYTimer:" destination="5Wd-VO-OHj" eventType="touchUpInside" id="4Nn-rs-tup"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhi-Yo-TBo">
-                                <rect key="frame" x="131" y="332" width="78" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhi-Yo-TBo">
+                                <rect key="frame" x="148.5" y="136" width="78" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Block UI"/>
                                 <connections>
                                     <action selector="blockUI:" destination="5Wd-VO-OHj" eventType="touchUpInside" id="u7k-D2-fmE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAI-t2-L6N">
+                                <rect key="frame" x="123" y="286" width="141" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Suspend QYTimer"/>
+                                <connections>
+                                    <action selector="QYSuspend:" destination="5Wd-VO-OHj" eventType="touchUpInside" id="ITp-Nj-2IJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPp-4i-o6o">
+                                <rect key="frame" x="127" y="367" width="136" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resume QYTimer"/>
+                                <connections>
+                                    <action selector="QYResume:" destination="5Wd-VO-OHj" eventType="touchUpInside" id="ZWd-PR-2G9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PYE-DK-hQ7" firstAttribute="top" secondItem="xmn-Nf-6GW" secondAttribute="bottom" constant="60" id="0MH-9n-J3k"/>
-                            <constraint firstItem="xmn-Nf-6GW" firstAttribute="top" secondItem="wrY-Qi-3b6" secondAttribute="bottom" constant="150" id="4qk-48-rRj"/>
+                            <constraint firstItem="xmn-Nf-6GW" firstAttribute="top" secondItem="wrY-Qi-3b6" secondAttribute="bottom" constant="70" id="4qk-48-rRj"/>
                             <constraint firstItem="xmn-Nf-6GW" firstAttribute="centerX" secondItem="RgW-ok-req" secondAttribute="centerX" id="6KY-Gk-syT"/>
+                            <constraint firstItem="qhi-Yo-TBo" firstAttribute="top" secondItem="xmn-Nf-6GW" secondAttribute="bottom" constant="35" id="EeB-i8-BYf"/>
+                            <constraint firstItem="pPp-4i-o6o" firstAttribute="top" secondItem="UAI-t2-L6N" secondAttribute="bottom" constant="35" id="G9Q-F1-C1h"/>
+                            <constraint firstItem="pPp-4i-o6o" firstAttribute="centerX" secondItem="RgW-ok-req" secondAttribute="centerX" id="Ski-G8-tTy"/>
                             <constraint firstItem="qhi-Yo-TBo" firstAttribute="centerX" secondItem="RgW-ok-req" secondAttribute="centerX" id="aTg-vH-ONK"/>
-                            <constraint firstItem="qhi-Yo-TBo" firstAttribute="top" secondItem="PYE-DK-hQ7" secondAttribute="bottom" constant="60" id="fmA-XJ-NQt"/>
+                            <constraint firstItem="UAI-t2-L6N" firstAttribute="top" secondItem="PYE-DK-hQ7" secondAttribute="bottom" constant="35" id="cDj-l8-u9C"/>
+                            <constraint firstItem="UAI-t2-L6N" firstAttribute="centerX" secondItem="RgW-ok-req" secondAttribute="centerX" id="gbP-cb-ZW5"/>
+                            <constraint firstItem="PYE-DK-hQ7" firstAttribute="top" secondItem="qhi-Yo-TBo" secondAttribute="bottom" constant="35" id="pxG-ae-Hy5"/>
                             <constraint firstItem="PYE-DK-hQ7" firstAttribute="centerX" secondItem="RgW-ok-req" secondAttribute="centerX" id="sVm-JH-D2i"/>
                         </constraints>
                     </view>

@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*系统NSTimer存在以下缺陷
  在主线程开辟的定时器容易受UI影响导致丢失部分定时任务；
  在子线程开辟的定时器虽然不受UI影响，但是需要开启子线程的runloop，比较麻烦；
+ 如不主动去停止定时器会引起内存泄露
  固基于GCD的timer封装使用方便的定时器
  */
 @interface QYTimer : NSObject
@@ -30,7 +31,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// - parameter: delayTime 定时器在创建对象后多久启动单位秒
 /// - parameter: block 定时器执行的任务
 + (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats queue:(nullable dispatch_queue_t)queue delay:(double)delayTime block:(void (^)(QYTimer *timer))block;
-/// 定时器作废
+
+/// 暂停定时器
+- (void)suspend;
+/// 从暂停到重新开启定时器，只有暂停了定时器，才需要调用此方法，否则不需要调用此方法
+- (void)resume;
+/// 定时器作废,调用了此方法后，无法再使用其他方法，需要从新创建Timer对象
 - (void)invalidate;
 
 @end

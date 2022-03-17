@@ -11,11 +11,12 @@
 @interface QYTimer ()
 
 @property (nonatomic, strong) dispatch_source_t gcdTimer;
-
+@property (nonatomic, assign) NSInteger opCount;
 @end
 
 @implementation QYTimer
 
+#pragma mark - Private
 - (instancetype)initWithQueue:(nullable dispatch_queue_t)queue delay:(double) delayTime timeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats block:(void (^)(QYTimer *timer))block{
     self = [super init];
     if (self) {
@@ -34,9 +35,12 @@
             }
         });
         dispatch_resume(self.gcdTimer);
+        self.opCount = 1;
     }
     return self;
 }
+
+#pragma mark - Public
 + (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats block:(void (^)(QYTimer *timer))block {
     QYTimer *timer = [[QYTimer alloc] initWithQueue:nil delay:0 timeInterval:interval repeats:repeats block:block];
     return timer;
@@ -45,9 +49,25 @@
     QYTimer *timer = [[QYTimer alloc] initWithQueue:queue delay:delayTime timeInterval:interval repeats:repeats block:block];
     return timer;
 }
+
+- (void)suspend {
+    if (self.opCount == 1 && self.gcdTimer) {
+        dispatch_suspend(self.gcdTimer);
+        self.opCount = 0;
+    }
+}
+- (void)resume {
+    if (self.opCount == 0 && self.gcdTimer) {
+        dispatch_resume(self.gcdTimer);
+        self.opCount = 1;
+    }
+}
 - (void)invalidate {
-    dispatch_cancel(self.gcdTimer
-                    );
+    if (self.opCount > 0) {
+        dispatch_cancel(self.gcdTimer
+                        );
+        self.opCount = 0;
+    }
     self.gcdTimer = nil;
 }
 
