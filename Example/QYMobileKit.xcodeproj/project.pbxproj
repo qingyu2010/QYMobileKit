@@ -140,7 +140,7 @@
 		6003F593195388D20070C39A /* Example for QYMobileKit */ = {
 			isa = PBXGroup;
 			children = (
-				D02F268127C11BE200AD7430 /* Demo */,
+				D02F268127C11BE200AD7430 /* Demos */,
 				D02F266927C0838F00AD7430 /* Resources */,
 				6003F59C195388D20070C39A /* QYAppDelegate.h */,
 				6003F59D195388D20070C39A /* QYAppDelegate.m */,
@@ -214,7 +214,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D02F268127C11BE200AD7430 /* Demo */ = {
+		D02F268127C11BE200AD7430 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
 				D02F268327C11BE200AD7430 /* QYTimerVC.h */,
@@ -222,7 +222,7 @@
 				D02F268527C1446000AD7430 /* QYFileManagerVC.h */,
 				D02F268627C1446000AD7430 /* QYFileManagerVC.m */,
 			);
-			path = Demo;
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
