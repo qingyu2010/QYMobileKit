@@ -26,7 +26,6 @@
 		D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328027E4299900B4E5A3 /* QYMainVC.m */; };
 		D0FA328B27E4299900B4E5A3 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328427E4299900B4E5A3 /* QYTimerVC.m */; };
 		D0FA328C27E4299900B4E5A3 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */; };
-		D0FA329027E42A6B00B4E5A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FA328E27E42A6B00B4E5A3 /* InfoPlist.strings */; };
 		F10A2DD8E861780ECDAB3D3B /* Pods_QYMobileKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +71,6 @@
 		D0FA328427E4299900B4E5A3 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
 		D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
 		D0FA328627E4299900B4E5A3 /* QYTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimerVC.h; sourceTree = "<group>"; };
-		D0FA328F27E42A6B00B4E5A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B9475C58437CF4ECBED505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 		D02F266927C0838F00AD7430 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D0FA328D27E42A6B00B4E5A3 /* en.lproj */,
 				D0FA327527E4297000B4E5A3 /* Images.xcassets */,
 				D02F266A27C083D300AD7430 /* Settings.bundle */,
 			);
@@ -274,14 +271,6 @@
 			children = (
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		D0FA328D27E42A6B00B4E5A3 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				D0FA328E27E42A6B00B4E5A3 /* InfoPlist.strings */,
-			);
-			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FA327627E4297000B4E5A3 /* Images.xcassets in Resources */,
-				D0FA329027E42A6B00B4E5A3 /* InfoPlist.strings in Resources */,
 				D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */,
 				D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */,
 				D02F266B27C083D300AD7430 /* Settings.bundle in Resources */,
@@ -535,14 +523,6 @@
 				D0FA327E27E4299900B4E5A3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0FA328E27E42A6B00B4E5A3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0FA328F27E42A6B00B4E5A3 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
