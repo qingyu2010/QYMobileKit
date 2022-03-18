@@ -249,8 +249,8 @@
 		D0FA327F27E4299900B4E5A3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D0FA328027E4299900B4E5A3 /* QYMainVC.m */,
 				D0FA328127E4299900B4E5A3 /* QYMainVC.h */,
+				D0FA328027E4299900B4E5A3 /* QYMainVC.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -258,10 +258,10 @@
 		D0FA328227E4299900B4E5A3 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				D0FA328327E4299900B4E5A3 /* QYFileManagerVC.h */,
-				D0FA328427E4299900B4E5A3 /* QYTimerVC.m */,
-				D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */,
 				D0FA328627E4299900B4E5A3 /* QYTimerVC.h */,
+				D0FA328427E4299900B4E5A3 /* QYTimerVC.m */,
+				D0FA328327E4299900B4E5A3 /* QYFileManagerVC.h */,
+				D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
