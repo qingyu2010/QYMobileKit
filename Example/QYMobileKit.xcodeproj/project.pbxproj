@@ -14,18 +14,18 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QYAppDelegate.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D02F266B27C083D300AD7430 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D02F266A27C083D300AD7430 /* Settings.bundle */; };
-		D02F267E27C10D9600AD7430 /* QYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F267D27C10D9600AD7430 /* QYMainVC.m */; };
-		D02F268427C11BE200AD7430 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F268227C11BE200AD7430 /* QYTimerVC.m */; };
-		D02F268727C1446000AD7430 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D02F268627C1446000AD7430 /* QYFileManagerVC.m */; };
+		D0FA327627E4297000B4E5A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327527E4297000B4E5A3 /* Images.xcassets */; };
+		D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */; };
+		D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327D27E4299900B4E5A3 /* Main.storyboard */; };
+		D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328027E4299900B4E5A3 /* QYMainVC.m */; };
+		D0FA328B27E4299900B4E5A3 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328427E4299900B4E5A3 /* QYTimerVC.m */; };
+		D0FA328C27E4299900B4E5A3 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */; };
 		F10A2DD8E861780ECDAB3D3B /* Pods_QYMobileKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,6 @@
 		6003F59B195388D20070C39A /* QYMobileKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* QYMobileKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYMobileKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -60,17 +59,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EDC04A10ADAA2515B2389D6 /* Pods-QYMobileKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A026EF43026A68F4968338D7 /* QYMobileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYMobileKit.podspec; path = ../QYMobileKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D02F266A27C083D300AD7430 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		D02F267C27C10D9600AD7430 /* QYMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYMainVC.h; sourceTree = "<group>"; };
-		D02F267D27C10D9600AD7430 /* QYMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYMainVC.m; sourceTree = "<group>"; };
-		D02F268227C11BE200AD7430 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
-		D02F268327C11BE200AD7430 /* QYTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimerVC.h; sourceTree = "<group>"; };
-		D02F268527C1446000AD7430 /* QYFileManagerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYFileManagerVC.h; sourceTree = "<group>"; };
-		D02F268627C1446000AD7430 /* QYFileManagerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
+		D0FA327527E4297000B4E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0FA327C27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0FA327E27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FA328027E4299900B4E5A3 /* QYMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMainVC.m; sourceTree = "<group>"; };
+		D0FA328127E4299900B4E5A3 /* QYMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMainVC.h; sourceTree = "<group>"; };
+		D0FA328327E4299900B4E5A3 /* QYFileManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFileManagerVC.h; sourceTree = "<group>"; };
+		D0FA328427E4299900B4E5A3 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
+		D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
+		D0FA328627E4299900B4E5A3 /* QYTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimerVC.h; sourceTree = "<group>"; };
 		D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B9475C58437CF4ECBED505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -140,15 +140,14 @@
 		6003F593195388D20070C39A /* Example for QYMobileKit */ = {
 			isa = PBXGroup;
 			children = (
-				D02F268127C11BE200AD7430 /* Demos */,
+				D0FA327A27E4299900B4E5A3 /* Modules */,
+				D0FA327827E4299900B4E5A3 /* BaseClasses */,
+				D0FA327927E4299900B4E5A3 /* BaseServices */,
+				D0FA327727E4299900B4E5A3 /* Macros */,
+				D0FA328727E4299900B4E5A3 /* Vendors */,
 				D02F266927C0838F00AD7430 /* Resources */,
 				6003F59C195388D20070C39A /* QYAppDelegate.h */,
 				6003F59D195388D20070C39A /* QYAppDelegate.m */,
-				D02F267C27C10D9600AD7430 /* QYMainVC.h */,
-				D02F267D27C10D9600AD7430 /* QYMainVC.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for QYMobileKit";
@@ -209,20 +208,69 @@
 		D02F266927C0838F00AD7430 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0FA327527E4297000B4E5A3 /* Images.xcassets */,
 				D02F266A27C083D300AD7430 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D02F268127C11BE200AD7430 /* Demos */ = {
+		D0FA327727E4299900B4E5A3 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				D02F268327C11BE200AD7430 /* QYTimerVC.h */,
-				D02F268227C11BE200AD7430 /* QYTimerVC.m */,
-				D02F268527C1446000AD7430 /* QYFileManagerVC.h */,
-				D02F268627C1446000AD7430 /* QYFileManagerVC.m */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D0FA327827E4299900B4E5A3 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		D0FA327927E4299900B4E5A3 /* BaseServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseServices;
+			sourceTree = "<group>";
+		};
+		D0FA327A27E4299900B4E5A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */,
+				D0FA327D27E4299900B4E5A3 /* Main.storyboard */,
+				D0FA327F27E4299900B4E5A3 /* Main */,
+				D0FA328227E4299900B4E5A3 /* Demos */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D0FA327F27E4299900B4E5A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA328027E4299900B4E5A3 /* QYMainVC.m */,
+				D0FA328127E4299900B4E5A3 /* QYMainVC.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D0FA328227E4299900B4E5A3 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA328327E4299900B4E5A3 /* QYFileManagerVC.h */,
+				D0FA328427E4299900B4E5A3 /* QYTimerVC.m */,
+				D0FA328527E4299900B4E5A3 /* QYFileManagerVC.m */,
+				D0FA328627E4299900B4E5A3 /* QYTimerVC.h */,
 			);
 			path = Demos;
+			sourceTree = "<group>";
+		};
+		D0FA328727E4299900B4E5A3 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,10 +358,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D0FA327627E4297000B4E5A3 /* Images.xcassets in Resources */,
+				D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */,
+				D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */,
 				D02F266B27C083D300AD7430 /* Settings.bundle in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +467,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */,
-				D02F267E27C10D9600AD7430 /* QYMainVC.m in Sources */,
-				D02F268427C11BE200AD7430 /* QYTimerVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				D02F268727C1446000AD7430 /* QYFileManagerVC.m in Sources */,
+				D0FA328B27E4299900B4E5A3 /* QYTimerVC.m in Sources */,
+				D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */,
+				D0FA328C27E4299900B4E5A3 /* QYFileManagerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,12 +509,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+		D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
+				D0FA327C27E4299900B4E5A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0FA327D27E4299900B4E5A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FA327E27E4299900B4E5A3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
