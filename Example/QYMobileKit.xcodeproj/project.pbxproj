@@ -27,6 +27,7 @@
 		D0FA329427E42C3300B4E5A3 /* QYLogUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329327E42C3300B4E5A3 /* QYLogUtilities.m */; };
 		D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */; };
 		D0FA329D27E42E5900B4E5A3 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */; };
+		D0FA32A027E4D62E00B4E5A3 /* QYMBProgressHUDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329F27E4D62E00B4E5A3 /* QYMBProgressHUDVC.m */; };
 		F10A2DD8E861780ECDAB3D3B /* Pods_QYMobileKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
 		D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
 		D0FA329A27E42E5900B4E5A3 /* QYTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimerVC.h; sourceTree = "<group>"; };
+		D0FA329E27E4D62E00B4E5A3 /* QYMBProgressHUDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYMBProgressHUDVC.h; sourceTree = "<group>"; };
+		D0FA329F27E4D62E00B4E5A3 /* QYMBProgressHUDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYMBProgressHUDVC.m; sourceTree = "<group>"; };
 		D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B9475C58437CF4ECBED505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -291,6 +294,8 @@
 				D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */,
 				D0FA329727E42E5900B4E5A3 /* QYFileManagerVC.h */,
 				D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */,
+				D0FA329E27E4D62E00B4E5A3 /* QYMBProgressHUDVC.h */,
+				D0FA329F27E4D62E00B4E5A3 /* QYMBProgressHUDVC.m */,
 			);
 			path = QYFoundation;
 			sourceTree = "<group>";
@@ -476,11 +481,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QYMobileKit_Example/Pods-QYMobileKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/QYMobileKit/QYMobileKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYMobileKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FA32A027E4D62E00B4E5A3 /* QYMBProgressHUDVC.m in Sources */,
 				6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */,

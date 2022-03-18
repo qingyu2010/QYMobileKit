@@ -19,8 +19,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.2.0)
   - QYMobileKit (0.5.0):
     - AFNetworking (~> 4.0.1)
+    - MBProgressHUD
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -30,6 +32,7 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - FBSnapshotTestCase
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   QYMobileKit:
@@ -38,7 +41,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QYMobileKit: ace694e497be2a7f3abcd6bc7dce43016bad379d
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  QYMobileKit: fba9063f97b01010d7f98ada91a9cfdaf51be3e7
 
 PODFILE CHECKSUM: 4259cf057b8a220dc899c7c8b778ecbaefdc75e1
 
