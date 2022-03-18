@@ -24,23 +24,23 @@
 
 #pragma mark - system timer
 - (IBAction)startNSTimer:(id)sender {
-    NSLog(@"begin Timer");
+    QYLog(@"begin Timer");
     self.sysTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        NSLog(@"%@",[NSThread currentThread]);
+        QYLog(@"%@",[NSThread currentThread]);
     }];
 }
 
 - (IBAction)blockUI:(id)sender {
     while (1) {
-        NSLog(@"block UI");
+        QYLog(@"block UI");
     }
 }
 
 #pragma mark - QYTimer
 - (IBAction)startQYTimer:(id)sender {
-    NSLog(@"begin Timer");
+    QYLog(@"begin Timer");
     self.qyTimer = [QYTimer timerWithTimeInterval:1.0 repeats:YES block:^(QYTimer * _Nonnull timer) {
-        NSLog(@"%@",[NSThread currentThread]);
+        QYLog(@"%@",[NSThread currentThread]);
     }];
 }
 
@@ -60,6 +60,6 @@
     if (self.qyTimer) {
         [self.qyTimer invalidate];
     }
-    NSLog(@"==== dealloc");
+    QYLog(@"==== dealloc");
 }
 @end
