@@ -45,8 +45,8 @@
     QYTimer *timer = [[QYTimer alloc] initWithQueue:nil delay:0 timeInterval:interval repeats:repeats block:block];
     return timer;
 }
-+ (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats queue:(nullable dispatch_queue_t)queue delay:(double)delayTime block:(void (^)(QYTimer *timer))block {
-    QYTimer *timer = [[QYTimer alloc] initWithQueue:queue delay:delayTime timeInterval:interval repeats:repeats block:block];
++ (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats queue:(nullable dispatch_queue_t)queue afterDelay:(NSTimeInterval)delay block:(void (^)(QYTimer *timer))block {
+    QYTimer *timer = [[QYTimer alloc] initWithQueue:queue delay:delay timeInterval:interval repeats:repeats block:block];
     return timer;
 }
 

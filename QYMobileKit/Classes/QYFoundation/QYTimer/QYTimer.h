@@ -28,9 +28,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// - parameter:  interval 定时器间隔
 /// - parameter: repeats 是否循环执行
 /// - parameter: queue 定时器执行的队列，默认是全局的队列
-/// - parameter: delayTime 定时器在创建对象后多久启动单位秒
+/// - parameter: afterDelay 定时器在创建对象后多久启动单位秒
 /// - parameter: block 定时器执行的任务
-+ (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats queue:(nullable dispatch_queue_t)queue delay:(double)delayTime block:(void (^)(QYTimer *timer))block;
++ (QYTimer *)timerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats queue:(nullable dispatch_queue_t)queue afterDelay:(NSTimeInterval)delay block:(void (^)(QYTimer *timer))block;
 
 /// 暂停定时器
 - (void)suspend;

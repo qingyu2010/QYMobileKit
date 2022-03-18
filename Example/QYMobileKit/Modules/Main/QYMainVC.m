@@ -10,7 +10,8 @@
 
 @interface QYMainVC ()
 
-@property(strong) NSArray *sourcesArray;
+@property(nonatomic, strong) NSArray *foundationArray;
+@property(nonatomic, strong) NSArray *uiKitArray;
 
 @end
 
@@ -29,32 +30,50 @@
 }
 
 - (void)initSourcesData {
-    self.sourcesArray = @[@"QYTimerVC",@"QYFileManagerVC"];
+    self.foundationArray = @[@"QYTimerVC",@"QYFileManagerVC"];
+    self.uiKitArray = @[@"QYTimerVC"];
 }
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
-    return 1;
+    return 2;
 }
 
+- (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return @"Foundation";
+    }
+    return @"UIKit";
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return self.sourcesArray.count;
+    if (section == 0) {
+        return self.foundationArray.count;
+    }
+    return self.uiKitArray.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellIdentifier" forIndexPath:indexPath];
-    
-    NSString *className = [self.sourcesArray objectAtIndex:indexPath.row];
+    NSString *className;
+    if (indexPath.section == 0) {
+        className = [self.foundationArray objectAtIndex:indexPath.row];
+    } else {
+        className = [self.uiKitArray objectAtIndex:indexPath.row];
+    }
+     
     cell.textLabel.text = className;
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *className = [self.sourcesArray objectAtIndex:indexPath.row];
+    NSString *className;
+    if (indexPath.section == 0) {
+        className = [self.foundationArray objectAtIndex:indexPath.row];
+    } else {
+        className = [self.uiKitArray objectAtIndex:indexPath.row];
+    }
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:className];
     vc.title = className;
