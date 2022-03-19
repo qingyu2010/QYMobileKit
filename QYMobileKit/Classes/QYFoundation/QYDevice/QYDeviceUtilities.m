@@ -9,9 +9,9 @@
 #import "QYKeyChainUtilities.h"
 
 
-static NSString * identifierStringKey = @"com.QY.UUID";
+static NSString * identifierStringKey = @"COM.QY.UUID";
 
-@implementation UIDevice (UIDeviceIdentifierExtensions)
+@implementation UIDevice (QYUIDeviceIdentifierExtensions)
 
 - (NSString *)identifierForQY {
     NSString *orgIdentifier = self.identifierWithSeparatorForQY;

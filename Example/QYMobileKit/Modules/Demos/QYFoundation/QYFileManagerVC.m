@@ -7,8 +7,7 @@
 //
 
 #import "QYFileManagerVC.h"
-#import <QYMobileKit/QYDeviceUtilities.h>
-#import <QYMobileKit/QYBundleUtilities.h>
+#import <QYMobileKit/QYFoundation.h>
 
 @interface QYFileManagerVC ()
 

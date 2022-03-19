@@ -15,6 +15,7 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QYAppDelegate.m */; };
 		D02F266B27C083D300AD7430 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D02F266A27C083D300AD7430 /* Settings.bundle */; };
+		D06E908227E6023200722647 /* QYDeviceAndBundleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E908127E6023200722647 /* QYDeviceAndBundleVC.m */; };
 		D0FA327627E4297000B4E5A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327527E4297000B4E5A3 /* Images.xcassets */; };
 		D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */; };
 		D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327D27E4299900B4E5A3 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		6003F59D195388D20070C39A /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
 		A026EF43026A68F4968338D7 /* QYMobileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYMobileKit.podspec; path = ../QYMobileKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D02F266A27C083D300AD7430 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D06E908027E6023200722647 /* QYDeviceAndBundleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYDeviceAndBundleVC.h; sourceTree = "<group>"; };
+		D06E908127E6023200722647 /* QYDeviceAndBundleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYDeviceAndBundleVC.m; sourceTree = "<group>"; };
 		D0FA327527E4297000B4E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0FA327C27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FA327E27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -229,12 +232,14 @@
 		D0FA329627E42E5900B4E5A3 /* QYFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				D0FA329A27E42E5900B4E5A3 /* QYTimerVC.h */,
-				D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */,
 				D0FA329727E42E5900B4E5A3 /* QYFileManagerVC.h */,
 				D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */,
+				D0FA329A27E42E5900B4E5A3 /* QYTimerVC.h */,
+				D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */,
 				D0FA329E27E4D62E00B4E5A3 /* QYMBProgressHUDVC.h */,
 				D0FA329F27E4D62E00B4E5A3 /* QYMBProgressHUDVC.m */,
+				D06E908027E6023200722647 /* QYDeviceAndBundleVC.h */,
+				D06E908127E6023200722647 /* QYDeviceAndBundleVC.m */,
 			);
 			path = QYFoundation;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06E908227E6023200722647 /* QYDeviceAndBundleVC.m in Sources */,
 				D0FA32A027E4D62E00B4E5A3 /* QYMBProgressHUDVC.m in Sources */,
 				6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

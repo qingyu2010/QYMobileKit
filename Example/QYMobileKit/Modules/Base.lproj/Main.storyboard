@@ -35,7 +35,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TbT-2f-oWI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="458" y="457"/>
+            <point key="canvasLocation" x="580" y="457"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rcz-xP-XxK">
@@ -169,7 +169,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvF-Vd-ihy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="302" y="1198"/>
+            <point key="canvasLocation" x="230" y="1198"/>
+        </scene>
+        <!--Device And BundleVC-->
+        <scene sceneID="2dJ-T7-AmL">
+            <objects>
+                <viewController storyboardIdentifier="QYDeviceAndBundleVC" id="QvV-5q-7wq" customClass="QYDeviceAndBundleVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L34-Gn-wAg"/>
+                        <viewControllerLayoutGuide type="bottom" id="u9F-te-jO6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mfL-x5-Pal">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9n-KZ-SUs">
+                                <rect key="frame" x="20" y="100" width="335" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97V-Ir-T18">
+                                <rect key="frame" x="20" y="170.5" width="335" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q9n-KZ-SUs" firstAttribute="leading" secondItem="mfL-x5-Pal" secondAttribute="leading" constant="20" id="Eeh-lu-pBk"/>
+                            <constraint firstItem="97V-Ir-T18" firstAttribute="trailing" secondItem="Q9n-KZ-SUs" secondAttribute="trailing" id="Ekg-vj-J4x"/>
+                            <constraint firstAttribute="trailing" secondItem="Q9n-KZ-SUs" secondAttribute="trailing" constant="20" id="FO1-dY-WBa"/>
+                            <constraint firstItem="97V-Ir-T18" firstAttribute="top" secondItem="Q9n-KZ-SUs" secondAttribute="bottom" constant="50" id="goD-nN-2c9"/>
+                            <constraint firstItem="Q9n-KZ-SUs" firstAttribute="top" secondItem="L34-Gn-wAg" secondAttribute="bottom" constant="100" id="haR-d6-dGk"/>
+                            <constraint firstItem="97V-Ir-T18" firstAttribute="leading" secondItem="Q9n-KZ-SUs" secondAttribute="leading" id="vhS-yS-ytS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appInfoLab" destination="97V-Ir-T18" id="pNu-Sm-Qfd"/>
+                        <outlet property="deviceInfoLab" destination="Q9n-KZ-SUs" id="Fxb-SP-4Wv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdp-4T-1Fr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="1198"/>
         </scene>
     </scenes>
     <resources>
