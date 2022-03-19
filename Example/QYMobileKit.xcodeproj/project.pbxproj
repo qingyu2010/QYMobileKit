@@ -38,8 +38,6 @@
 		6003F59B195388D20070C39A /* QYMobileKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QYMobileKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
-		627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EDC04A10ADAA2515B2389D6 /* Pods-QYMobileKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A026EF43026A68F4968338D7 /* QYMobileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYMobileKit.podspec; path = ../QYMobileKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D02F266A27C083D300AD7430 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D0FA327527E4297000B4E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 		D0FA329E27E4D62E00B4E5A3 /* QYMBProgressHUDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYMBProgressHUDVC.h; sourceTree = "<group>"; };
 		D0FA329F27E4D62E00B4E5A3 /* QYMBProgressHUDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYMBProgressHUDVC.m; sourceTree = "<group>"; };
 		D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Tests/Pods-QYMobileKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B9475C58437CF4ECBED505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE3E513068A5D91CB2A03E2E /* Pods-QYMobileKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit_Example.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit_Example/Pods-QYMobileKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +99,6 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				D4CE01BB9336C2F86A0D831D /* Pods_QYMobileKit_Example.framework */,
-				627A344E09AC033CADE4167A /* Pods_QYMobileKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,14 +106,14 @@
 		6003F593195388D20070C39A /* Example for QYMobileKit */ = {
 			isa = PBXGroup;
 			children = (
+				6003F59C195388D20070C39A /* QYAppDelegate.h */,
+				6003F59D195388D20070C39A /* QYAppDelegate.m */,
 				D0FA327A27E4299900B4E5A3 /* Modules */,
 				D0FA327827E4299900B4E5A3 /* BaseClasses */,
 				D0FA327927E4299900B4E5A3 /* BaseServices */,
 				D0FA327727E4299900B4E5A3 /* Macros */,
 				D0FA328727E4299900B4E5A3 /* Vendors */,
 				D02F266927C0838F00AD7430 /* Resources */,
-				6003F59C195388D20070C39A /* QYAppDelegate.h */,
-				6003F59D195388D20070C39A /* QYAppDelegate.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for QYMobileKit";
@@ -150,8 +146,6 @@
 			children = (
 				4B0D375B2326CBCB7B90BF34 /* Pods-QYMobileKit_Example.debug.xcconfig */,
 				FE3E513068A5D91CB2A03E2E /* Pods-QYMobileKit_Example.release.xcconfig */,
-				9EDC04A10ADAA2515B2389D6 /* Pods-QYMobileKit_Tests.debug.xcconfig */,
-				D7733270AE56273B9E3AEC1D /* Pods-QYMobileKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";

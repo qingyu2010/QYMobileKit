@@ -1,6 +1,6 @@
 {
   "name": "QYMobileKit",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "summary": "Base framework for iOS developer",
   "description": "iOS移动开发基础框架（封装为更符合国人思维的Framework）",
   "homepage": "https://github.com/qingyu2010/QYMobileKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qingyu2010/QYMobileKit.git",
-    "tag": "0.5.0"
+    "tag": "0.5.1"
   },
   "platforms": {
     "ios": "9.0"

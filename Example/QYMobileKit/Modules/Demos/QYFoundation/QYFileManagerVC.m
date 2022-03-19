@@ -20,13 +20,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSString *tt = [NSBundle mainBundle].displayNameForQY;
+    NSString *tt = [NSBundle displayNameForQY];
     NSLog(@"%@",tt);
-    tt = [NSBundle mainBundle].shortVersionStringForQY;
+    tt = [NSBundle shortVersionStringForQY];
     NSLog(@"%@",tt);
-    tt = [NSBundle mainBundle].versionForQY;
+    tt = [NSBundle versionForQY];
     NSLog(@"%@",tt);
-    tt = [NSBundle mainBundle].identifierForQY;
+    tt = [NSBundle identifierForQY];
     NSLog(@"%@",tt);
 }
 

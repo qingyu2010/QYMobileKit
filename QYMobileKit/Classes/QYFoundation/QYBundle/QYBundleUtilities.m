@@ -9,16 +9,16 @@
 
 @implementation NSBundle (NSBundleInfoDictionaryExtensions)
 
-- (NSString *)displayNameForQY {
++ (NSString *)displayNameForQY {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
 }
-- (NSString *)shortVersionStringForQY {
++ (NSString *)shortVersionStringForQY {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
-- (NSString *)versionForQY {
++ (NSString *)versionForQY {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
-- (NSString *)identifierForQY {
++ (NSString *)identifierForQY {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
 }
 @end
