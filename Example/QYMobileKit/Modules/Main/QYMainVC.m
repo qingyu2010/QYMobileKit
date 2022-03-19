@@ -30,7 +30,7 @@
 }
 
 - (void)initSourcesData {
-    self.foundationArray = @[@"QYTimerVC",@"QYFileManagerVC",@"QYDeviceAndBundleVC"];
+    self.foundationArray = @[@"QYFileManagerVC",@"QYTimerVC",@"QYDeviceAndBundleVC"];
     self.uiKitArray = @[@"QYMBProgressHUDVC"];
 }
 #pragma mark - Table view data source

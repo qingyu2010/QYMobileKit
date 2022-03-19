@@ -13,5 +13,6 @@
 #import "QYDeviceUtilities.h"
 #import "QYFile.h"
 #import "QYTimer.h"
+#import "QYQueueUtilities.h"
 
 #endif /* QYFoundation_h */

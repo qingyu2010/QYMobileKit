@@ -19,14 +19,22 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSString *tt = [NSBundle displayNameForQY];
-    NSLog(@"%@",tt);
-    tt = [NSBundle shortVersionStringForQY];
-    NSLog(@"%@",tt);
-    tt = [NSBundle versionForQY];
-    NSLog(@"%@",tt);
-    tt = [NSBundle identifierForQY];
-    NSLog(@"%@",tt);
+    
+
+    NSLog(@"begin task");
+    dispatch_queue_t queue = QYCreateConcurrentQueue("test");
+    dispatch_async(queue, ^{
+        
+        sleep(2);
+        NSLog(@"---%@",[NSThread currentThread]);
+    });
+    
+    dispatch_async(queue, ^{
+        
+        sleep(2);
+        NSLog(@"---%@",[NSThread currentThread]);
+    });
+    NSLog(@"end task");
 }
 
 
