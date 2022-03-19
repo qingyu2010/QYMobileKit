@@ -7,7 +7,7 @@
 //
 
 #import "QYTimerVC.h"
-#import <QYMobileKit/QYTimer.h>
+#import <QYMobileKit/QYFoundation.h>
 
 @interface QYTimerVC ()
 
