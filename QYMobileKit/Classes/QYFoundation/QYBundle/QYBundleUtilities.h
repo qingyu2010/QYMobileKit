@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSBundle (NSBundleInfoDictionaryExtensions)
+@interface NSBundle (QYNSBundleInfoDictionaryExtensions)
 
 /// app名称
 @property (class, readonly, copy) NSString *displayNameForQY;

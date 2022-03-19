@@ -7,7 +7,7 @@
 
 #import "QYBundleUtilities.h"
 
-@implementation NSBundle (NSBundleInfoDictionaryExtensions)
+@implementation NSBundle (QYNSBundleInfoDictionaryExtensions)
 
 + (NSString *)displayNameForQY {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
