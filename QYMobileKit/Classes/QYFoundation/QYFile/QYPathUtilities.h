@@ -12,33 +12,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 ///返回沙盒容器根目录
-NSString* QYHomeDirectory(void);
+FOUNDATION_EXPORT NSString* QYHomeDirectory(void);
 
 ///返回沙盒Documents目录
-NSString* QYDocumentDirectory(void);
+FOUNDATION_EXPORT NSString* QYDocumentDirectory(void);
 
 ///返回沙盒Library目录
-NSString* QYLibraryDirectory(void);
+FOUNDATION_EXPORT NSString* QYLibraryDirectory(void);
 
 ///返回沙盒Caches目录
-NSString* QYCachesDirectory(void);
+FOUNDATION_EXPORT NSString* QYCachesDirectory(void);
 
 ///返回沙盒Temporary目录
-NSString* QYTemporaryDirectory(void);
+FOUNDATION_EXPORT NSString* QYTemporaryDirectory(void);
 
 ///.app的资源为mainBundle,app下层级的资源为子Bundle，获取子Bundle的路径
 /// - parameter: subBundle子Bundle名称
-NSString* QYSubBundleDirectory(NSString *subBundle);
+FOUNDATION_EXPORT NSString* QYSubBundleDirectory(NSString *subBundle);
 
 ///app的资源文件路径
 /// - parameter: name 文件名称
 /// - parameter: ofType 文件类型
-NSString* QYPathForMainBundleResource(NSString *name,NSString *ofType);
+FOUNDATION_EXPORT NSString* QYPathForMainBundleResource(NSString *name,NSString *ofType);
 
 ///子Bundle的资源文件路径*
 /// - parameter: subBundle子bundle
 /// - parameter: name文件名称
 /// - parameter: ofType文件类型
-NSString* QYPathForSubBundleResource(NSString *subBundle,NSString *name,NSString *ofType);
+FOUNDATION_EXPORT NSString* QYPathForSubBundleResource(NSString *subBundle,NSString *name,NSString *ofType);
 
 NS_ASSUME_NONNULL_END
