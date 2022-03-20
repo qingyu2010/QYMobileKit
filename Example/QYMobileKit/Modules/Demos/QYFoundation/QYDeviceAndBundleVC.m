@@ -7,7 +7,6 @@
 //
 
 #import "QYDeviceAndBundleVC.h"
-#import <QYMobileKit/QYFoundation.h>
 
 @interface QYDeviceAndBundleVC ()
 

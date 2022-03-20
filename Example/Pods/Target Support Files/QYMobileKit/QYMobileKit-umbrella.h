@@ -18,6 +18,7 @@
 #import "QYFoundation.h"
 #import "QYKeyChainUtilities.h"
 #import "QYLogUtilities.h"
+#import "QYMathUtilities.h"
 #import "QYQueueUtilities.h"
 #import "QYTimeUtilities.h"
 #import "QYTimer.h"

@@ -215,6 +215,64 @@
             </objects>
             <point key="canvasLocation" x="930" y="1198"/>
         </scene>
+        <!--QYGCDVC-->
+        <scene sceneID="9s5-8I-g0n">
+            <objects>
+                <viewController storyboardIdentifier="QYGCDVC" id="fgn-3j-Pcy" customClass="QYGCDVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mXB-aE-VAg"/>
+                        <viewControllerLayoutGuide type="bottom" id="TE1-5Z-l9H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hB4-MS-S41">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJn-p2-8zQ">
+                                <rect key="frame" x="20" y="50" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dnD-Sg-S0g"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="group执行一组同步任务"/>
+                                <connections>
+                                    <action selector="dispatchGroupExeSyncTask:" destination="fgn-3j-Pcy" eventType="touchUpInside" id="ZA2-fV-gP2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGS-VB-dil">
+                                <rect key="frame" x="20" y="120" width="335" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="semaphore执行一组异步任务"/>
+                                <connections>
+                                    <action selector="semaphoreExeAsyncTask:" destination="fgn-3j-Pcy" eventType="touchUpInside" id="6jh-nl-Fea"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-l3-dj4">
+                                <rect key="frame" x="154" y="206" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="testTask:" destination="fgn-3j-Pcy" eventType="touchUpInside" id="wRo-Nb-QV9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tUy-l3-dj4" firstAttribute="top" secondItem="AGS-VB-dil" secondAttribute="bottom" constant="55" id="0cE-zv-3J1"/>
+                            <constraint firstItem="AGS-VB-dil" firstAttribute="leading" secondItem="aJn-p2-8zQ" secondAttribute="leading" id="3ny-6W-4GB"/>
+                            <constraint firstItem="aJn-p2-8zQ" firstAttribute="top" secondItem="mXB-aE-VAg" secondAttribute="bottom" constant="50" id="5Wz-JK-7Mj"/>
+                            <constraint firstItem="AGS-VB-dil" firstAttribute="trailing" secondItem="aJn-p2-8zQ" secondAttribute="trailing" id="5Yo-cd-oav"/>
+                            <constraint firstAttribute="trailing" secondItem="aJn-p2-8zQ" secondAttribute="trailing" constant="20" id="5bc-6w-57O"/>
+                            <constraint firstItem="AGS-VB-dil" firstAttribute="height" secondItem="aJn-p2-8zQ" secondAttribute="height" multiplier="0.775" id="6Hc-gN-xml"/>
+                            <constraint firstItem="tUy-l3-dj4" firstAttribute="centerX" secondItem="hB4-MS-S41" secondAttribute="centerX" id="D3b-hB-7SK"/>
+                            <constraint firstItem="aJn-p2-8zQ" firstAttribute="leading" secondItem="hB4-MS-S41" secondAttribute="leading" constant="20" id="FIv-IF-hcE"/>
+                            <constraint firstItem="AGS-VB-dil" firstAttribute="top" secondItem="aJn-p2-8zQ" secondAttribute="bottom" constant="30" id="oxR-0o-QT8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RhD-en-dtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632.8" y="1197.7511244377813"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

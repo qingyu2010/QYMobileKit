@@ -17,5 +17,6 @@
 #import "QYKeyChainUtilities.h"
 #import "QYLogUtilities.h"
 #import "QYTimeUtilities.h"
+#import "QYMathUtilities.h"
 
 #endif /* QYFoundation_h */

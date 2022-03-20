@@ -7,7 +7,6 @@
 //
 
 #import "QYTimerVC.h"
-#import <QYMobileKit/QYFoundation.h>
 
 ///对比测试系统的定时器和自定义定时器
 @interface QYTimerVC ()

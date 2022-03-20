@@ -13,6 +13,6 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
-#import "QYLogUtilities.h"
+#import <QYMobileKit/QYFoundation.h>
 
 #endif
