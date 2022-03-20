@@ -17,6 +17,7 @@
 #import "QYFileManager.h"
 #import "QYPathUtilities.h"
 #import "QYFoundation.h"
+#import "QYLogUtilities.h"
 #import "QYQueueUtilities.h"
 #import "QYTimer.h"
 

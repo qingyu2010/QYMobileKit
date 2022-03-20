@@ -21,7 +21,6 @@
 		D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */; };
 		D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327D27E4299900B4E5A3 /* Main.storyboard */; };
 		D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA328027E4299900B4E5A3 /* QYMainVC.m */; };
-		D0FA329427E42C3300B4E5A3 /* QYLogUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329327E42C3300B4E5A3 /* QYLogUtilities.m */; };
 		D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */; };
 		D0FA329D27E42E5900B4E5A3 /* QYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */; };
 /* End PBXBuildFile section */
@@ -50,8 +49,6 @@
 		D0FA327E27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0FA328027E4299900B4E5A3 /* QYMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMainVC.m; sourceTree = "<group>"; };
 		D0FA328127E4299900B4E5A3 /* QYMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMainVC.h; sourceTree = "<group>"; };
-		D0FA329227E42C3300B4E5A3 /* QYLogUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLogUtilities.h; sourceTree = "<group>"; };
-		D0FA329327E42C3300B4E5A3 /* QYLogUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLogUtilities.m; sourceTree = "<group>"; };
 		D0FA329727E42E5900B4E5A3 /* QYFileManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFileManagerVC.h; sourceTree = "<group>"; };
 		D0FA329827E42E5900B4E5A3 /* QYTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimerVC.m; sourceTree = "<group>"; };
 		D0FA329927E42E5900B4E5A3 /* QYFileManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFileManagerVC.m; sourceTree = "<group>"; };
@@ -214,8 +211,6 @@
 		D0FA329127E42C3300B4E5A3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				D0FA329227E42C3300B4E5A3 /* QYLogUtilities.h */,
-				D0FA329327E42C3300B4E5A3 /* QYLogUtilities.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -379,7 +374,6 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D06E908527E61A2000722647 /* QYMBProgressHUDVC.m in Sources */,
 				D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */,
-				D0FA329427E42C3300B4E5A3 /* QYLogUtilities.m in Sources */,
 				D0FA329D27E42E5900B4E5A3 /* QYFileManagerVC.m in Sources */,
 				D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */,
 			);

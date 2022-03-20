@@ -20,21 +20,11 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-
-    NSLog(@"begin task");
-    dispatch_queue_t queue = QYCreateConcurrentQueue("test");
-    dispatch_async(queue, ^{
-        
-        sleep(2);
-        NSLog(@"---%@",[NSThread currentThread]);
-    });
-    
-    dispatch_async(queue, ^{
-        
-        sleep(2);
-        NSLog(@"---%@",[NSThread currentThread]);
-    });
-    NSLog(@"end task");
+     NSString *  str1 = @"str1";
+    QYLog(@"%@",str1);
+    QYLogConfig(NO);
+    str1 = @"st";
+    QYLog(@"%@",str1);
 }
 
 
