@@ -8,6 +8,7 @@
 
 #import "QYMBProgressHUDVC.h"
 #import "MBProgressHUD.h"
+#import <QYMobileKit/QYFoundation.h>
 
 @interface MBExample : NSObject
 
@@ -413,7 +414,7 @@
     [self performSelector:example.selector];
 #pragma clang diagnostic pop
 
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(QYCreateDispatchTime(0.1), dispatch_get_main_queue(), ^{
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
     });
 }

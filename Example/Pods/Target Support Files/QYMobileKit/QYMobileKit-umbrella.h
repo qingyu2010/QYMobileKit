@@ -19,6 +19,7 @@
 #import "QYKeyChainUtilities.h"
 #import "QYLogUtilities.h"
 #import "QYQueueUtilities.h"
+#import "QYTimeUtilities.h"
 #import "QYTimer.h"
 
 FOUNDATION_EXPORT double QYMobileKitVersionNumber;

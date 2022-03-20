@@ -7,6 +7,7 @@
 //
 
 #import "QYTimer.h"
+#import "QYTimeUtilities.h"
 
 @interface QYTimer ()
 
@@ -21,8 +22,8 @@
     self = [super init];
     if (self) {
         self.gcdTimer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
-        dispatch_time_t startTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayTime*NSEC_PER_SEC));
-            uint64_t timeInterval = (uint64_t)(interval*NSEC_PER_SEC);
+        dispatch_time_t startTime = QYCreateDispatchTime(delayTime);
+            uint64_t timeInterval = QYSecondToNanoseconds(interval);
         dispatch_source_set_timer(self.gcdTimer, startTime, timeInterval, 0);
         __weak typeof(self) weakSelf = self;
         dispatch_source_set_event_handler(self.gcdTimer, ^{
