@@ -14,5 +14,7 @@
 #import "QYFile.h"
 #import "QYTimer.h"
 #import "QYQueueUtilities.h"
+#import "QYKeyChainUtilities.h"
+#import "QYLogUtilities.h"
 
 #endif /* QYFoundation_h */

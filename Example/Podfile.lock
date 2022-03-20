@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - MBProgressHUD (1.2.0)
-  - QYMobileKit (0.6.0):
+  - QYMobileKit (0.7.0):
     - AFNetworking (~> 4.0.1)
     - MBProgressHUD
 
@@ -34,7 +34,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  QYMobileKit: 882a2c2b0a334593b08b6b16a659e38cca19a547
+  QYMobileKit: 6cb6572c708fed218bf88c1a76fa8c23489e1963
 
 PODFILE CHECKSUM: 6fa3aea82aa22fb9c66d8886cb10d66db94ab46c
 
