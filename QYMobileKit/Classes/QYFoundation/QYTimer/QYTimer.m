@@ -68,6 +68,11 @@
         dispatch_cancel(self.gcdTimer
                         );
         self.opCount = 0;
+    } else {
+        dispatch_resume(self.gcdTimer);
+        dispatch_cancel(self.gcdTimer
+                        );
+        self.opCount = 0;
     }
     self.gcdTimer = nil;
 }

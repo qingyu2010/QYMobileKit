@@ -19,12 +19,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
-     NSString *  str1 = @"str1";
-    QYLog(@"%@",str1);
-    QYLogConfig(NO);
-    str1 = @"st";
-    QYLog(@"%@",str1);
 }
 
 
