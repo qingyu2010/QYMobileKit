@@ -10,15 +10,41 @@
 
 @interface QYThreadVC ()
 
+@property(nonatomic, assign) BOOL isRunning;
+
 @end
 
 @implementation QYThreadVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.isRunning = YES;
     // Do any additional setup after loading the view.
 }
 
+///异步常驻线程
++ (void)logThreadEntryPoint:(id)__unused object {
+    @autoreleasepool {
+        [[NSThread currentThread] setName:@"com.QY.ServiceThreadName"];
+        
+        NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+        [runLoop addPort:[NSMachPort port] forMode:NSDefaultRunLoopMode];
+        [runLoop run];
+    }
+}
+
++ (NSThread *)logThread {
+    static NSThread *_logThread = nil;
+    static dispatch_once_t oncePredicate;
+    dispatch_once(&oncePredicate, ^{
+        _logThread = [[NSThread alloc] initWithTarget:self selector:@selector(logThreadEntryPoint:) object:nil];
+        [_logThread start];
+    });
+    
+    return _logThread;
+}
+
+#pragma mark - Test Case
 ///group执行一组同步任务
 ///对于dispatch_group_t，添加到组里的每一个任务必须是同步的才有效
 - (IBAction)dispatchGroupExeSyncTask:(id)sender {
@@ -68,8 +94,9 @@
     QYLog(@"all finish");
 }
 
-- (IBAction)testTask:(id)sender {
-    
+///常驻线程执行任务
+- (IBAction)runningThreadExtTask:(id)sender {
+    [self performSelector:@selector(printThreadName) onThread:[[self class] logThread] withObject:nil waitUntilDone:NO];
 }
 
 #pragma mark - Private
@@ -80,4 +107,17 @@
     sleep(randomARC);
 }
 
+///打印线程名字
+- (void)printThreadName {
+    while (self.isRunning) {
+        QYLog(@"[running thread]%@",[NSThread currentThread]);
+        //500 ms
+        usleep(500*1000);
+    }
+}
+
+///看本对象是否释放
+- (void)dealloc {
+    QYLog(@"==== dealloc");
+}
 @end

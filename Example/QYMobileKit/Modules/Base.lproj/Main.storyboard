@@ -247,17 +247,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-l3-dj4">
-                                <rect key="frame" x="154" y="206" width="67" height="31"/>
+                                <rect key="frame" x="118" y="181" width="139" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="常驻线程执行任务"/>
                                 <connections>
-                                    <action selector="testTask:" destination="fgn-3j-Pcy" eventType="touchUpInside" id="wRo-Nb-QV9"/>
+                                    <action selector="runningThreadExtTask:" destination="fgn-3j-Pcy" eventType="touchUpInside" id="U47-4v-eRj"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tUy-l3-dj4" firstAttribute="top" secondItem="AGS-VB-dil" secondAttribute="bottom" constant="55" id="0cE-zv-3J1"/>
+                            <constraint firstItem="tUy-l3-dj4" firstAttribute="top" secondItem="AGS-VB-dil" secondAttribute="bottom" constant="30" id="0cE-zv-3J1"/>
                             <constraint firstItem="AGS-VB-dil" firstAttribute="leading" secondItem="aJn-p2-8zQ" secondAttribute="leading" id="3ny-6W-4GB"/>
                             <constraint firstItem="aJn-p2-8zQ" firstAttribute="top" secondItem="mXB-aE-VAg" secondAttribute="bottom" constant="50" id="5Wz-JK-7Mj"/>
                             <constraint firstItem="AGS-VB-dil" firstAttribute="trailing" secondItem="aJn-p2-8zQ" secondAttribute="trailing" id="5Yo-cd-oav"/>
