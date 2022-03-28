@@ -6,9 +6,9 @@
 //  Copyright © 2022 qingyu2010. All rights reserved.
 //
 
-#import "QYDeviceAndBundleVC.h"
+#import "QYDeviceInfoVC.h"
 
-@interface QYDeviceAndBundleVC ()
+@interface QYDeviceInfoVC ()
 
 @property(nonatomic, strong) IBOutlet UILabel *deviceInfoLab;
 
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation QYDeviceAndBundleVC
+@implementation QYDeviceInfoVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

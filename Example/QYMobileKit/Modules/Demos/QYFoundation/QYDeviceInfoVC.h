@@ -1,8 +1,8 @@
 //
-//  QYGCDVC.h
+//  QYDeviceAndBundleVC.h
 //  QYMobileKit_Example
 //
-//  Created by Peter Wen on 2022/3/20.
+//  Created by Peter Wen on 2022/3/19.
 //  Copyright © 2022 qingyu2010. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QYGCDVC : UIViewController
+@interface QYDeviceInfoVC : UIViewController
 
 @end
 

@@ -171,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="230" y="1198"/>
         </scene>
-        <!--Device And BundleVC-->
+        <!--Device InfoVC-->
         <scene sceneID="2dJ-T7-AmL">
             <objects>
-                <viewController storyboardIdentifier="QYDeviceAndBundleVC" id="QvV-5q-7wq" customClass="QYDeviceAndBundleVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QYDeviceInfoVC" id="QvV-5q-7wq" customClass="QYDeviceInfoVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L34-Gn-wAg"/>
                         <viewControllerLayoutGuide type="bottom" id="u9F-te-jO6"/>
@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="930" y="1198"/>
         </scene>
-        <!--QYGCDVC-->
+        <!--ThreadVC-->
         <scene sceneID="9s5-8I-g0n">
             <objects>
-                <viewController storyboardIdentifier="QYGCDVC" id="fgn-3j-Pcy" customClass="QYGCDVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QYThreadVC" id="fgn-3j-Pcy" customClass="QYThreadVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mXB-aE-VAg"/>
                         <viewControllerLayoutGuide type="bottom" id="TE1-5Z-l9H"/>

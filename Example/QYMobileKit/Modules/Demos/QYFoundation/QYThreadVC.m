@@ -6,13 +6,13 @@
 //  Copyright © 2022 qingyu2010. All rights reserved.
 //
 
-#import "QYGCDVC.h"
+#import "QYThreadVC.h"
 
-@interface QYGCDVC ()
+@interface QYThreadVC ()
 
 @end
 
-@implementation QYGCDVC
+@implementation QYThreadVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
