@@ -11,6 +11,7 @@
 #endif
 
 #import "QYBundleUtilities.h"
+#import "QYDataConverter.h"
 #import "QYDeviceUtilities.h"
 #import "QYFile.h"
 #import "QYFileManager.h"

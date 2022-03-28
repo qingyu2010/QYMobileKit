@@ -19,6 +19,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    QYLog(@"%@",[QYDataConverter stringWithDate:[NSDate date]]);
+    NSString *str = @"abc";
+    NSString *hexString = [QYDataConverter hexStringWithData:[QYDataConverter dataWithString:str]];
+    QYLog(@"hex: %@",hexString);
+    
+    NSData *data = [QYDataConverter dataWithHexString:hexString];
+    NSString *ss = [QYDataConverter stringWithData:data];
+    QYLog(@"ss: %@",ss);
 }
 
 
