@@ -24,6 +24,7 @@
 #import "QYQueueUtilities.h"
 #import "QYTimeUtilities.h"
 #import "QYTimer.h"
+#import "QYURLRequestManager.h"
 
 FOUNDATION_EXPORT double QYMobileKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYMobileKitVersionString[];
