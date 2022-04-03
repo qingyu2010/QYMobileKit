@@ -11,7 +11,7 @@
 
 static NSString * identifierStringKey = @"COM.QY.UUID";
 
-@implementation UIDevice (QYUIDeviceIdentifierExtensions)
+@implementation UIDevice (QYDeviceIdentifierExtensions)
 
 - (NSString *)identifierForQY {
     NSString *orgIdentifier = self.identifierWithSeparatorForQY;

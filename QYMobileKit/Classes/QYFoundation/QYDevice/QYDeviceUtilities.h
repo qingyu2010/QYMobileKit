@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIDevice (QYUIDeviceIdentifierExtensions)
+@interface UIDevice (QYDeviceIdentifierExtensions)
 
 ///设备的唯一标识符（没有分割符的字符串）
 @property (readonly, copy) NSString *identifierForQY;

@@ -8,83 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C8E21135DD4267DC08D5DF12E368D4 /* MBProgressHUD.m */; };
-		036CEF61079C755BE41E1E733D8701AE /* QYFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3490498C177958939A73FC5A21F47AD7 /* QYFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04CF3DDF21EB83A5E429441EE4171336 /* QYPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0897B6291ED013E3BD5B5CDBA4ED9554 /* QYPathUtilities.m */; };
+		030122A872B548E75DBAB3C9304C49EA /* QYKeyChainUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E41AEDA7089C1F882DD3D780475ACA06 /* QYKeyChainUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		0FC2C7300D3DE350BD73741888D9A1A8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F115845AAFD95CA718902CB805FB6E67 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F0C63F30368F8E12D3E092C11C2B62 /* QYFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3490498C177958939A73FC5A21F47AD7 /* QYFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1684A9B7A5E922F83F3DD9096E935EB8 /* QYLogUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 38607A0A4A5A27E3D530643A47A31083 /* QYLogUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 423CF65CF5817E4C9B33B3C64CD171E4 /* UIImageView+AFNetworking.m */; };
-		1BB7845480917C3394AB25223165E4F0 /* QYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 17571663DED707DA0E28721716EE07DB /* QYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190284F2D9F27D5C17FF2FEAB69C1A69 /* QYMathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CFBC0DC82DB553284C601EF78B61A3 /* QYMathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3A7054E65B0BDFE3E669A6ABB69A2F /* QYQueueUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8226CE0223D9F1AD153283EAC8D9CC /* QYQueueUtilities.m */; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF38E5105EA24EF459B7C3C03795296 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23AEAF5E77D59B98AE79C57BAE746C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		25EE4E8388FDB195BD81CE3C34700004 /* QYDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C85BC82E139B29B0DA752947C5AE91A /* QYDataConverter.m */; };
+		271C5F54DCDA1B3194C55C0A1A841C36 /* QYMobileKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791DDD43043F46915C45FCDC438D4885 /* QYMobileKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27A1AA22D234973BA30D8493C546884C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D9969585A0405D4DCF364EEE15EF4E0D /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AB52C7962046BC8963B2CD626F22BD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 016CC32BA2507B82CF91CB552D67EC06 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		335C9DDE5FE21301932D05B0DC276DE1 /* QYDeviceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82657FF68CCFCDA123D59F1E5D234D /* QYDeviceUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F2C327B57BF5F5CA1F06D4A4692E8 /* AFHTTPSessionManager.m */; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A90F9DF159E62B6A36C17CD0E9583E6 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34B355891981A20BC3EFE1D7FBD4845F /* QYDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C85BC82E139B29B0DA752947C5AE91A /* QYDataConverter.m */; };
-		399E200323BF21AD8667C2C553AF899F /* DeveloperHelper.md in Sources */ = {isa = PBXBuildFile; fileRef = 62A1B486204AC4EBA13E53E2246FE637 /* DeveloperHelper.md */; };
+		35EDEC8B99989D9667386E5397441D79 /* QYKeyChainUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6FC7F20B852BE876921CFB2E53B1B /* QYKeyChainUtilities.m */; };
 		3E7A25BCE5BAC256FBBA56106C3192CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DC7CC72C81FBA5AE86497F33317176 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		429448D9EF83ADD6C679A6F2012547BA /* QYTimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AA80D4475AB5F385D813DAE1B64AA /* QYTimeUtilities.m */; };
+		40A45C99FEC14B349A2B84FFBD2DB37F /* QYFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B588F134262B0427C59C92B3CE15E2 /* QYFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CBC2393AB9162AE33302B47267E38B /* AFNetworking-dummy.m */; };
 		52E68E9AFF4A9C20F05A07F3E55EAF59 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274F929FA22DE0690F309F2E5E27ACE /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5469FE0826B72899BEDB0B12F59A48ED /* QYKeyChainUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6FC7F20B852BE876921CFB2E53B1B /* QYKeyChainUtilities.m */; };
-		55260E5C57F9952341402E22D328829C /* QYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F124125F71FEE39D6737164D459D744E /* QYCryptor.m */; };
 		57744CA757400E7183DFC0D37EFB5214 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB451795B96B0EE530D55BB68EDA4CD8 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584233A4CEC7C9AA382A1A43C26B87EE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9880B3FA8F27ED855EBA707519CE09 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F82F605FD315249C0CAE785DD07C1207 /* MBProgressHUD-dummy.m */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFA4AA55AF311D6CCD365FF465314DC /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE27AF46E2DE81F61752081EDB7E52B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C70EF127524FBA8EC52813407208F8 /* AFSecurityPolicy.m */; };
+		5D77B4B0041E726A86AB76B000AE6CDE /* QYBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB28D78B3D67D013D8EBF6839EB9C4E0 /* QYBundleUtilities.m */; };
+		5E83AF226B96ED98F103B6EC08CC67A3 /* QYMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BBCF4C2718B32CED1118A16889D16 /* QYMathUtilities.m */; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E952A3B3F719F868FF6E8B64A5B58 /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 552461667B536B963F37E4EC4AD2FFE4 /* AFURLSessionManager.m */; };
 		65163D7E6539C8A1D65F5FCBA0E6EFD2 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1538F0948CF3800006356983064BFB88 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBD0F37F874726C6111DB5ADF87E4E3 /* WKWebView+AFNetworking.m */; };
-		66AD6EAA7166C7B97CB76C0C2F5D9222 /* QYMobileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0CE1BF3CE8679A1E1EE88B749A43F /* QYMobileKit-dummy.m */; };
 		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBEA3E090ED0D2C1111608E4C937649 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691B02A57DE29B445BCD73C196F26A1A /* QYURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9505DE90B289FBBB0B9E79B393425A /* QYURLRequestManager.m */; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D402498CDEF11BDD7B1AC7661A905AAF /* UIProgressView+AFNetworking.m */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DE60D22EA55ED8382E666BCEA1C4F9 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F619A538A48A3D54552474532398899 /* QYMobileKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791DDD43043F46915C45FCDC438D4885 /* QYMobileKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A4B91FDC9E423B85EBDD0D871A744E6 /* QYPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ECAC6F5B8307C9D75DCCC4ECA452B7 /* QYPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7322724B390FB24FA135D3BF32A118B6 /* QYMobileKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0CE1BF3CE8679A1E1EE88B749A43F /* QYMobileKit-dummy.m */; };
 		801724F329AA434F8BB6A11E96E5805A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DE27FE4517ABC6A12864066DF1C32 /* AFAutoPurgingImageCache.m */; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EFF346901DB4145EFFCBAD65FC1B45 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8518861B3613BDA37052991A7D8DF2ED /* QYURLRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC60A862CA133349C2EA346BD7A73DB /* QYURLRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D24141CE554A01A7C82433BCB0281B3 /* QYCryptorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC7D163B5D2973ADC8172A48F9E9903 /* QYCryptorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91842E4D856B90D154DE58A9BAE16E6B /* Pods-QYMobileKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639735067AC404AE41A9B107DEFA32B /* Pods-QYMobileKit_Example-dummy.m */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A21DE2419A874AC26D7A2B5420FFA35 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		922A3CAAD365156015C728C78B320189 /* QYQueueUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8226CE0223D9F1AD153283EAC8D9CC /* QYQueueUtilities.m */; };
-		9353A214BCC5791C949E3828A3964662 /* QYLogUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 38607A0A4A5A27E3D530643A47A31083 /* QYLogUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		944F2B61518C4E8D79B0F4B20CF83DE0 /* QYFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B588F134262B0427C59C92B3CE15E2 /* QYFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95D3079448100C798B956A4373FFE11C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0A4D18A207D76BC6AC6DC40753B69A /* AFURLResponseSerialization.m */; };
-		9ED3F839174D1FA651682E3ABB521645 /* QYURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9505DE90B289FBBB0B9E79B393425A /* QYURLRequestManager.m */; };
+		9B9E5298D2A063739452F882F4EE037F /* QYPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ECAC6F5B8307C9D75DCCC4ECA452B7 /* QYPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F22A713FF239CB6B707AF15F4C174B1 /* QYTimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 429BF89D208B4C4D7505A246EA483525 /* QYTimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0602D918E04067AB9C535785512C9725 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A21008A173B508591E9FC4DE33472845 /* QYBundleUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E415D5BE2533FAD765373028C46BE58 /* QYBundleUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98FEBF8C6874FE6E4F5A0441DFF7C94 /* QYDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D26505C43B05C3E16847AE2356280 /* QYDeviceUtilities.m */; };
+		A689088E811FEF326A94CA757C1E3067 /* QYFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A684E74C3330BA71C917498BDD7B0EA8 /* QYFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A90EB6295D324498A2E673BC123103 /* UIRefreshControl+AFNetworking.m */; };
 		AD6158AF5746E99C7136F3ECA9423C63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 00880C17BD70EB6845309D3DCD008DE5 /* UIActivityIndicatorView+AFNetworking.m */; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
 		B128600E44AECF1E920EE21C3CF7E09B /* Pods-QYMobileKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0987A089AA5904E1672539C6E131024B /* Pods-QYMobileKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3089695B356DD8642D4A9893243F843 /* QYDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B216515804145C6AF2E048C1A197A1A /* QYDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
 		B7DA5AE2EE8808176A31F845A204C190 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A813607162D1AC6AEA4B5E0AB5386F /* UIButton+AFNetworking.m */; };
+		B88443B9430F0B71D3226A42CE4A6EEB /* QYPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0897B6291ED013E3BD5B5CDBA4ED9554 /* QYPathUtilities.m */; };
 		B8AD58C4501F99461CB07AC05DCB8705 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BD656C03F57BC397337B7350F7A1E7B6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8B4A245FEFA2CE20339CA8CA8BE68EC /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A26CCEB35D66DACCE3BFDEE41D466BF8 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9BC67332B7B9B46C5461C6CDEFC32BE /* QYBundleUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E415D5BE2533FAD765373028C46BE58 /* QYBundleUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB08D6748C698A6AA6DC7D6A2BFFE49 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2C8E0E67CA7F669FF6C403DC04D97 /* AFNetworkActivityIndicatorManager.m */; };
-		C4E7D5841C05A6ED172074814C843AC3 /* QYQueueUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE44D4CB068DEDEC7C3B27C19A81596 /* QYQueueUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD51F27B2198FA298D80312FC999FFC5 /* QYKeyChainUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E41AEDA7089C1F882DD3D780475ACA06 /* QYKeyChainUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA57A92B2324E175FC1DF3151F740C9 /* DeveloperHelper.md in Sources */ = {isa = PBXBuildFile; fileRef = 62A1B486204AC4EBA13E53E2246FE637 /* DeveloperHelper.md */; };
+		C264D127962C2C9B04506558D7BAB402 /* QYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D36006F3F6AB4D268B6DB1DD363A4681 /* QYFileManager.m */; };
+		C58DA7A0F75284763E04E77338A74E2F /* QYTimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AA80D4475AB5F385D813DAE1B64AA /* QYTimeUtilities.m */; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C951CFADA2EF5EF8FF86C15487B55997 /* AFURLRequestSerialization.m */; };
-		D0E1CD1F5D485C42648A09386C037547 /* QYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D72C18040958CBBC82D74B18CE443C1 /* QYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1B7D2484CDF7E908A52D49E7F295208 /* QYBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB28D78B3D67D013D8EBF6839EB9C4E0 /* QYBundleUtilities.m */; };
-		D68B57D0CB1CAE66942FEBC7361FD499 /* QYLogUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C00CBFEE4B058AF5670A09595700F399 /* QYLogUtilities.m */; };
-		D7B3E29B803DCEA81E66C8CB416AC856 /* QYFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A684E74C3330BA71C917498BDD7B0EA8 /* QYFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCE4A868C093F07A0D5A524DB2DD2BCB /* QYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D36006F3F6AB4D268B6DB1DD363A4681 /* QYFileManager.m */; };
+		CEB5FF2408154C1622D10D110C674352 /* QYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 17571663DED707DA0E28721716EE07DB /* QYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D645B33A94096440C20885BE1D754548 /* QYCryptorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6244A89E3642286A8370717064EA1B /* QYCryptorUtilities.m */; };
 		DD50646A1F3D31BAA8F630B4623480F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		DF14AB4CEDDB624B42E685A9169C4ADB /* QYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D771753065B4BED0DF24E9EDA3E3191F /* QYTimer.m */; };
-		E642579FBFE6ED841E7E51289339252A /* QYMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BBCF4C2718B32CED1118A16889D16 /* QYMathUtilities.m */; };
+		E6B9E73CB8F1C8D604B99802E98DCE1E /* QYQueueUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE44D4CB068DEDEC7C3B27C19A81596 /* QYQueueUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8372DA8FDA0830EF5FF160493C0B37A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A467DFB1B24EE88DE6F291CE5CAC91 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA3D95A2CFBBAEBF277A8730221CF33B /* QYMathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CFBC0DC82DB553284C601EF78B61A3 /* QYMathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F327F83F6303EDA890FEA4ABD2CFC33B /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A1FFF6708C428027AA2D07E84595C1 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8CCAAD8C06321D5F82894B9A099A9A7 /* QYTimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 429BF89D208B4C4D7505A246EA483525 /* QYTimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF349454A9E5CC850B4E2E89DC95E42C /* QYDeviceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82657FF68CCFCDA123D59F1E5D234D /* QYDeviceUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1ABFEF5FB9874B365392C1FD14405B1 /* QYLogUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C00CBFEE4B058AF5670A09595700F399 /* QYLogUtilities.m */; };
+		F9F6FC9D238C6D5157AA5170FB30D014 /* QYURLRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC60A862CA133349C2EA346BD7A73DB /* QYURLRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 67632324AAE4C2DD89382E0326B0E118 /* AFImageDownloader.m */; };
-		FB21136EC8416D7BD71586BB8BB47BD2 /* QYDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B216515804145C6AF2E048C1A197A1A /* QYDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD412AD73179640A295E6021EBEC9738 /* QYDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D26505C43B05C3E16847AE2356280 /* QYDeviceUtilities.m */; };
+		FE532A80562F520FC655410CA240788A /* QYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D771753065B4BED0DF24E9EDA3E3191F /* QYTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,7 +148,6 @@
 		3B9AA80D4475AB5F385D813DAE1B64AA /* QYTimeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYTimeUtilities.m; sourceTree = "<group>"; };
 		3CC60A862CA133349C2EA346BD7A73DB /* QYURLRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYURLRequestManager.h; sourceTree = "<group>"; };
 		3CFA4AA55AF311D6CCD365FF465314DC /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		3D72C18040958CBBC82D74B18CE443C1 /* QYCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYCryptor.h; sourceTree = "<group>"; };
 		423CF65CF5817E4C9B33B3C64CD171E4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		4274F929FA22DE0690F309F2E5E27ACE /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		429BF89D208B4C4D7505A246EA483525 /* QYTimeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYTimeUtilities.h; sourceTree = "<group>"; };
@@ -173,6 +172,7 @@
 		66DC7CC72C81FBA5AE86497F33317176 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		67632324AAE4C2DD89382E0326B0E118 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		6C85BC82E139B29B0DA752947C5AE91A /* QYDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYDataConverter.m; sourceTree = "<group>"; };
+		6DC7D163B5D2973ADC8172A48F9E9903 /* QYCryptorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYCryptorUtilities.h; sourceTree = "<group>"; };
 		6FE98A1F4D08ACDF02F3A8B1543D1BC2 /* Pods-QYMobileKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYMobileKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		75CBC2393AB9162AE33302B47267E38B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		7639735067AC404AE41A9B107DEFA32B /* Pods-QYMobileKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYMobileKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -207,6 +207,7 @@
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CAC5D8C23E5727B0C0311F246DDB3B42 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC6244A89E3642286A8370717064EA1B /* QYCryptorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYCryptorUtilities.m; sourceTree = "<group>"; };
 		CCF38E5105EA24EF459B7C3C03795296 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		D36006F3F6AB4D268B6DB1DD363A4681 /* QYFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYFileManager.m; sourceTree = "<group>"; };
 		D402498CDEF11BDD7B1AC7661A905AAF /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -223,7 +224,6 @@
 		EB28D78B3D67D013D8EBF6839EB9C4E0 /* QYBundleUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBundleUtilities.m; sourceTree = "<group>"; };
 		EC7AFF683F63D940CF6CC4AACB2EECCE /* QYMobileKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYMobileKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F115845AAFD95CA718902CB805FB6E67 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		F124125F71FEE39D6737164D459D744E /* QYCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYCryptor.m; sourceTree = "<group>"; };
 		F327F83F6303EDA890FEA4ABD2CFC33B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		F52558FADFE08F6318371A04736B5065 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		F5F374A70C3C432C721CAECFF93D26FA /* Pods-QYMobileKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYMobileKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -440,7 +440,7 @@
 				3490498C177958939A73FC5A21F47AD7 /* QYFoundation.h */,
 				57BFD549A74F0FCEDF433272B81AC7C3 /* Pod */,
 				832EE16188F9EEC3F2BD30945E29A5E4 /* QYBundle */,
-				A08F0060FAC350D4070322D28AE0997F /* QYCryptor */,
+				FBF390F851B3727CDA99BECDF2474CFA /* QYCryptor */,
 				6F1ACC0C8A22CEBF7F0A9A375A089851 /* QYDataConverter */,
 				D76CCE59D5B0FD16C1761DFF7C08FB48 /* QYDevice */,
 				F43C684D5AD5E66EE406295F24171A09 /* QYFile */,
@@ -497,16 +497,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		A08F0060FAC350D4070322D28AE0997F /* QYCryptor */ = {
-			isa = PBXGroup;
-			children = (
-				3D72C18040958CBBC82D74B18CE443C1 /* QYCryptor.h */,
-				F124125F71FEE39D6737164D459D744E /* QYCryptor.m */,
-			);
-			name = QYCryptor;
-			path = QYMobileKit/Classes/QYFoundation/QYCryptor;
 			sourceTree = "<group>";
 		};
 		A16781D83006293C531359275B5573E2 /* Products */ = {
@@ -649,6 +639,16 @@
 			path = QYMobileKit/Classes/QYFoundation/QYLog;
 			sourceTree = "<group>";
 		};
+		FBF390F851B3727CDA99BECDF2474CFA /* QYCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				6DC7D163B5D2973ADC8172A48F9E9903 /* QYCryptorUtilities.h */,
+				CC6244A89E3642286A8370717064EA1B /* QYCryptorUtilities.m */,
+			);
+			name = QYCryptor;
+			path = QYMobileKit/Classes/QYFoundation/QYCryptor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -695,26 +695,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6651AB23AC051921DC0E2688368724A0 /* Headers */ = {
+		EF0B0DA90E6000A9E335AA89A77DFC70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21008A173B508591E9FC4DE33472845 /* QYBundleUtilities.h in Headers */,
-				D0E1CD1F5D485C42648A09386C037547 /* QYCryptor.h in Headers */,
-				FB21136EC8416D7BD71586BB8BB47BD2 /* QYDataConverter.h in Headers */,
-				335C9DDE5FE21301932D05B0DC276DE1 /* QYDeviceUtilities.h in Headers */,
-				944F2B61518C4E8D79B0F4B20CF83DE0 /* QYFile.h in Headers */,
-				D7B3E29B803DCEA81E66C8CB416AC856 /* QYFileManager.h in Headers */,
-				036CEF61079C755BE41E1E733D8701AE /* QYFoundation.h in Headers */,
-				CD51F27B2198FA298D80312FC999FFC5 /* QYKeyChainUtilities.h in Headers */,
-				9353A214BCC5791C949E3828A3964662 /* QYLogUtilities.h in Headers */,
-				EA3D95A2CFBBAEBF277A8730221CF33B /* QYMathUtilities.h in Headers */,
-				6F619A538A48A3D54552474532398899 /* QYMobileKit-umbrella.h in Headers */,
-				7A4B91FDC9E423B85EBDD0D871A744E6 /* QYPathUtilities.h in Headers */,
-				C4E7D5841C05A6ED172074814C843AC3 /* QYQueueUtilities.h in Headers */,
-				1BB7845480917C3394AB25223165E4F0 /* QYTimer.h in Headers */,
-				F8CCAAD8C06321D5F82894B9A099A9A7 /* QYTimeUtilities.h in Headers */,
-				8518861B3613BDA37052991A7D8DF2ED /* QYURLRequestManager.h in Headers */,
+				B9BC67332B7B9B46C5461C6CDEFC32BE /* QYBundleUtilities.h in Headers */,
+				8D24141CE554A01A7C82433BCB0281B3 /* QYCryptorUtilities.h in Headers */,
+				B3089695B356DD8642D4A9893243F843 /* QYDataConverter.h in Headers */,
+				EF349454A9E5CC850B4E2E89DC95E42C /* QYDeviceUtilities.h in Headers */,
+				40A45C99FEC14B349A2B84FFBD2DB37F /* QYFile.h in Headers */,
+				A689088E811FEF326A94CA757C1E3067 /* QYFileManager.h in Headers */,
+				15F0C63F30368F8E12D3E092C11C2B62 /* QYFoundation.h in Headers */,
+				030122A872B548E75DBAB3C9304C49EA /* QYKeyChainUtilities.h in Headers */,
+				1684A9B7A5E922F83F3DD9096E935EB8 /* QYLogUtilities.h in Headers */,
+				190284F2D9F27D5C17FF2FEAB69C1A69 /* QYMathUtilities.h in Headers */,
+				271C5F54DCDA1B3194C55C0A1A841C36 /* QYMobileKit-umbrella.h in Headers */,
+				9B9E5298D2A063739452F882F4EE037F /* QYPathUtilities.h in Headers */,
+				E6B9E73CB8F1C8D604B99802E98DCE1E /* QYQueueUtilities.h in Headers */,
+				CEB5FF2408154C1622D10D110C674352 /* QYTimer.h in Headers */,
+				9F22A713FF239CB6B707AF15F4C174B1 /* QYTimeUtilities.h in Headers */,
+				F9F6FC9D238C6D5157AA5170FB30D014 /* QYURLRequestManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,8 +743,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E444C0CE6E20DECD714DBCC0E6F66488 /* Build configuration list for PBXNativeTarget "QYMobileKit" */;
 			buildPhases = (
-				6651AB23AC051921DC0E2688368724A0 /* Headers */,
-				95E3F8A671C237E67C0B0224A4A59288 /* Sources */,
+				EF0B0DA90E6000A9E335AA89A77DFC70 /* Headers */,
+				C002A222E496DAEECCD866A84834D848 /* Sources */,
 				51E4C421166E35E6BE55CA565A5159C7 /* Frameworks */,
 				4697620261D31F1829AE09B0B63C997E /* Resources */,
 			);
@@ -869,25 +869,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95E3F8A671C237E67C0B0224A4A59288 /* Sources */ = {
+		C002A222E496DAEECCD866A84834D848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399E200323BF21AD8667C2C553AF899F /* DeveloperHelper.md in Sources */,
-				D1B7D2484CDF7E908A52D49E7F295208 /* QYBundleUtilities.m in Sources */,
-				55260E5C57F9952341402E22D328829C /* QYCryptor.m in Sources */,
-				34B355891981A20BC3EFE1D7FBD4845F /* QYDataConverter.m in Sources */,
-				A98FEBF8C6874FE6E4F5A0441DFF7C94 /* QYDeviceUtilities.m in Sources */,
-				DCE4A868C093F07A0D5A524DB2DD2BCB /* QYFileManager.m in Sources */,
-				5469FE0826B72899BEDB0B12F59A48ED /* QYKeyChainUtilities.m in Sources */,
-				D68B57D0CB1CAE66942FEBC7361FD499 /* QYLogUtilities.m in Sources */,
-				E642579FBFE6ED841E7E51289339252A /* QYMathUtilities.m in Sources */,
-				66AD6EAA7166C7B97CB76C0C2F5D9222 /* QYMobileKit-dummy.m in Sources */,
-				04CF3DDF21EB83A5E429441EE4171336 /* QYPathUtilities.m in Sources */,
-				922A3CAAD365156015C728C78B320189 /* QYQueueUtilities.m in Sources */,
-				DF14AB4CEDDB624B42E685A9169C4ADB /* QYTimer.m in Sources */,
-				429448D9EF83ADD6C679A6F2012547BA /* QYTimeUtilities.m in Sources */,
-				9ED3F839174D1FA651682E3ABB521645 /* QYURLRequestManager.m in Sources */,
+				BEA57A92B2324E175FC1DF3151F740C9 /* DeveloperHelper.md in Sources */,
+				5D77B4B0041E726A86AB76B000AE6CDE /* QYBundleUtilities.m in Sources */,
+				D645B33A94096440C20885BE1D754548 /* QYCryptorUtilities.m in Sources */,
+				25EE4E8388FDB195BD81CE3C34700004 /* QYDataConverter.m in Sources */,
+				FD412AD73179640A295E6021EBEC9738 /* QYDeviceUtilities.m in Sources */,
+				C264D127962C2C9B04506558D7BAB402 /* QYFileManager.m in Sources */,
+				35EDEC8B99989D9667386E5397441D79 /* QYKeyChainUtilities.m in Sources */,
+				F1ABFEF5FB9874B365392C1FD14405B1 /* QYLogUtilities.m in Sources */,
+				5E83AF226B96ED98F103B6EC08CC67A3 /* QYMathUtilities.m in Sources */,
+				7322724B390FB24FA135D3BF32A118B6 /* QYMobileKit-dummy.m in Sources */,
+				B88443B9430F0B71D3226A42CE4A6EEB /* QYPathUtilities.m in Sources */,
+				1E3A7054E65B0BDFE3E669A6ABB69A2F /* QYQueueUtilities.m in Sources */,
+				FE532A80562F520FC655410CA240788A /* QYTimer.m in Sources */,
+				C58DA7A0F75284763E04E77338A74E2F /* QYTimeUtilities.m in Sources */,
+				691B02A57DE29B445BCD73C196F26A1A /* QYURLRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

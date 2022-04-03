@@ -19,7 +19,7 @@
 #import "QYTimeUtilities.h"
 #import "QYMathUtilities.h"
 #import "QYDataConverter.h"
-#import "QYCryptor.h"
+#import "QYCryptorUtilities.h"
 #import "QYURLRequestManager.h"
 
 #endif /* QYFoundation_h */

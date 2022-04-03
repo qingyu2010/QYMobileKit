@@ -7,11 +7,12 @@
 
 #import "QYFileManager.h"
 
-static QYFileManager *fileManager = nil;
+
 
 @implementation QYFileManager
 
 + (QYFileManager *)defaultManager {
+    static QYFileManager *fileManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         fileManager = [[QYFileManager alloc] init];
