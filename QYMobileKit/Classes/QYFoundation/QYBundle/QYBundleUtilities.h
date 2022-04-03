@@ -9,16 +9,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSBundle (QYNSBundleInfoDictionaryExtensions)
+@interface NSBundle (QYBundleInfoDictionaryExtensions)
 
 /// app名称
-@property (class, readonly, copy) NSString *displayNameForQY;
+@property (readonly, copy) NSString *displayNameForQY;
 ///app版本
-@property (class, readonly, copy) NSString *shortVersionStringForQY;
+@property (readonly, copy) NSString *shortVersionStringForQY;
 ///app build版本
-@property (class, readonly, copy) NSString *versionForQY;
+@property (readonly, copy) NSString *versionForQY;
 ///Bundle Identifier (app id)
-@property (class, readonly, copy) NSString *identifierForQY;
+@property (readonly, copy) NSString *identifierForQY;
 
 @end
 

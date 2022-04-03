@@ -25,10 +25,10 @@
     NSString *deviceIdentifier2 = [UIDevice currentDevice].identifierWithSeparatorForQY;
     self.deviceInfoLab.text = [NSString stringWithFormat:@"Identifier:\n%@\n%@",deviceIdentifier,deviceIdentifier2];
     
-    NSString *displayName = [NSBundle displayNameForQY];
-    NSString *shortVersion = [NSBundle shortVersionStringForQY];
-    NSString *version = [NSBundle versionForQY];
-    NSString *appId = [NSBundle identifierForQY];
+    NSString *displayName = [NSBundle mainBundle].displayNameForQY;
+    NSString *shortVersion = [NSBundle mainBundle].shortVersionStringForQY;
+    NSString *version = [NSBundle mainBundle].versionForQY;
+    NSString *appId = [NSBundle mainBundle].identifierForQY;
     self.appInfoLab.text = [NSString stringWithFormat:@"displayName:\n%@\nshortVersion:\n%@\nversion:\n%@\nappid:\n%@\n",displayName,shortVersion,version,appId];
 }
 
