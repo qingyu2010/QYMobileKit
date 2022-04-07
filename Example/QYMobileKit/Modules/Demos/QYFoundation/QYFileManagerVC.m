@@ -19,7 +19,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    QYLog(@"%@",[QYDataConverter stringWithDate:[NSDate date]]);
+    NSDate *otherDate = [NSDate dateWithString:@"2022-04-07" dateFormat:@"yyyy-MM-dd"];
+    NSInteger compare = [[NSDate date] compareWithDate:otherDate];
+    
     NSString *str = @"abc";
     NSString *hexString = [QYDataConverter hexStringWithData:[QYDataConverter dataWithString:str]];
     QYLog(@"hex: %@",hexString);

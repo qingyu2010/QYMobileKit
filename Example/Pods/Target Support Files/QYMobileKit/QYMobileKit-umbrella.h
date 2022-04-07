@@ -13,6 +13,7 @@
 #import "QYBundleUtilities.h"
 #import "QYCryptorUtilities.h"
 #import "QYDataConverter.h"
+#import "QYDateUtilities.h"
 #import "QYDeviceUtilities.h"
 #import "QYFile.h"
 #import "QYFileManager.h"

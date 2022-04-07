@@ -19,14 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// - parameter: data 输入的data
 + (NSString *)stringWithData:(NSData *)data;
 
-///NSDate转NSString
-/// - parameter: date 输入的时间
-+ (NSString *)stringWithDate:(NSDate *)date;
-
-///NSDate转NSString
-/// - parameter: date 输入的时间
-/// - parameter: dateFormat 输入的时间格式 @"yyyy-MM-dd HH:mm:ss "
-+ (NSString *)stringWithDate:(NSDate *)date dateFormat:(NSString *)dateFormat;
 
 ///Dictionary转Json NSString
 /// - parameter: dic 输入的字典

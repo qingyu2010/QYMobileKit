@@ -21,5 +21,6 @@
 #import "QYDataConverter.h"
 #import "QYCryptorUtilities.h"
 #import "QYURLRequestManager.h"
+#import "QYDateUtilities.h"
 
 #endif /* QYFoundation_h */

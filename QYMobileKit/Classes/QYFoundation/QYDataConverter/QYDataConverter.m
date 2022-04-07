@@ -18,19 +18,6 @@
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-+ (NSString *)stringWithDate:(NSDate *)date {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
-    NSString *dateString = [dateFormatter stringFromDate:date];
-    return dateString;
-}
-
-+ (NSString *)stringWithDate:(NSDate *)date dateFormat:(NSString *)dateFormat {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:dateFormat];
-    NSString *dateString = [dateFormatter stringFromDate:date];
-    return dateString;
-}
 
 + (NSString *)jsonStringWithDictionary:(NSDictionary *)dic {
     NSError *parseError = nil;
