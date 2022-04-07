@@ -34,4 +34,21 @@
     }
     return result;
 }
+
+- (NSInteger)compareWithDate:(NSDate *)otherDate dateFormat:(NSString *)dateFormat {
+    NSString *selfString = [self stringWithDateFormat:dateFormat];
+    NSString *otherString = [otherDate stringWithDateFormat:dateFormat];
+    NSInteger result = 0;
+    NSComparisonResult r = [selfString compare:otherString];
+    if (r == NSOrderedSame) {
+        result = 0;
+    } else if (r == NSOrderedAscending) {
+        result = -1;
+    } else {
+        result = 1;
+    }
+    return result;
+}
+
+
 @end
