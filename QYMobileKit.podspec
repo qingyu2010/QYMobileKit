@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYMobileKit'
-  s.version          = '0.13.0'
+  s.version          = '0.13.1'
   s.summary          = 'Base framework for iOS developer'
 
 # This description is used to generate tags and improve search results.
