@@ -7,15 +7,15 @@
 如果要实现的功能抽象成一个类，这个类是不存在的，则需要生成一个自定义类，如果这个类在整个app中只允许有一个实例的，则把这个类定义为单例（UIApplication），如果这个类可以有多个实例，但是有一个最常用的实例，可以定义一个类的属性，以方便生成这个常用的实例，例如类NSBundle，它的常用实例@property (class, readonly, strong) NSBundle *mainBundle;mainBundle是一个全局生命周期的类属性，但是NSBundle不是单例，它可以有其他的实例，也有很多方法生成NSBundle的实例。
  
  ##方法、属性使用原则
- 如果一个类初始化就需要用到的信息适合用方法传入参数，如果某一个功能实现不需要参数，则用属性；
+ 如果只是获取某个变量的值，或者给一个变量赋值则用属性；如果要完成某一个操作则用函数；如果只获取变量的值，而不能改变它，则定义为readonly属性。
  
 ##文件命名规则
-分类的文件名，不按新建Category模版命名，以功能模块+Utilities命名，egg：QY+功能+Utilities。
-全局方法文件名，命名规则跟分类一样，把所有实现这种功能的方法都放在这个文件里。
+分类的文件名，不按新建Category模版命名，以前缀+功能模块+Utilities命名，egg：QY+功能+Utilities。
+全局方法文件名，命名规则跟分类一样。
 自定义类文件名，前缀+功能模块的方式命名。
 
 ##分类命名规则
-分类名以前缀+功能模块+Extensions方式命名，egg：
+分类名以前缀+功能模块+Extensions方式命名，功能模块里不需要用NS或者UI等系统的前缀，egg：
 @interface NSBundle (QYBundleInfoDictionaryExtensions)
 BundleInfoDictionary是功能模块，意思是实现BundleInfoDictionary功能的扩展
 分类属性命名：属性容易重名，为了防止命名冲突，属性后面加ForQY
