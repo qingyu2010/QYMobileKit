@@ -19,7 +19,8 @@
 #import "QYTimeUtilities.h"
 #import "QYMathUtilities.h"
 #import "QYDataConverter.h"
-#import "QYCryptorUtilities.h"
+#import "QYDataUtilities.h"
+#import "QYStringUtilities.h"
 #import "QYURLRequestManager.h"
 #import "QYDateUtilities.h"
 

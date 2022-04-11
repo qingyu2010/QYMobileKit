@@ -11,7 +11,7 @@
 #endif
 
 #import "QYBundleUtilities.h"
-#import "QYCryptorUtilities.h"
+#import "QYDataUtilities.h"
 #import "QYDataConverter.h"
 #import "QYDateUtilities.h"
 #import "QYDeviceUtilities.h"
@@ -23,6 +23,7 @@
 #import "QYLogUtilities.h"
 #import "QYMathUtilities.h"
 #import "QYQueueUtilities.h"
+#import "QYStringUtilities.h"
 #import "QYTimeUtilities.h"
 #import "QYTimer.h"
 #import "QYURLRequestManager.h"
