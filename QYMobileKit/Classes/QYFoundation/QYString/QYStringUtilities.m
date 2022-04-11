@@ -11,7 +11,8 @@
 
 @implementation NSString (NSString)
 
-
+///aes256算法加密NSString
+/// - parameter: key 密钥
 - (NSString *)aes256EncodedStringWithKey:(NSString *)key {
     const char *cstr = [self cStringUsingEncoding:NSUTF8StringEncoding];
     NSData *data = [NSData dataWithBytes:cstr length:self.length];
@@ -30,7 +31,8 @@
     }
     return nil;
 }
-
+///aes256算法解密NSString
+/// - parameter: key 密钥
 - (NSString *)aes256DecodedStringWithKey:(NSString *)key {
     //转换为二进制Data
     NSMutableData *data = [NSMutableData dataWithCapacity:self.length / 2];
