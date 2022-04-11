@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 
 static BOOL logAble = YES;
-
+///配置QYLog是否打印
+/// -parameter: able 是否开启日志功能
 void QYLogConfig(BOOL able) {
     logAble = able;
 }
-
+///打印log
+/// -parameter: format打印字符串格式
 void QYLog(NSString *format, ...) {
     if (logAble) {
         va_list args;

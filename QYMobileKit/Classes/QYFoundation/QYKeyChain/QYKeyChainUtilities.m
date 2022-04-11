@@ -14,6 +14,9 @@ static NSMutableDictionary* getKeychainQuery(NSString *service) {
             (__bridge_transfer id)kSecAttrAccessibleAfterFirstUnlock, (__bridge_transfer id)kSecAttrAccessible, nil];
 }
 
+///存储数据到钥匙串
+/// - parameter:  data 需要存储的数据
+/// - parameter:  service 保存数据对应的key
 void QYAddItemToKeychainWithData(id data,NSString *service) {
     //Get search dictionary
     NSMutableDictionary *keychainQuery = getKeychainQuery(service);
@@ -24,7 +27,8 @@ void QYAddItemToKeychainWithData(id data,NSString *service) {
     //Add item to keychain with the search dictionary
     SecItemAdd((__bridge_retained CFDictionaryRef)keychainQuery, NULL);
 }
-
+///从钥匙串获取数据
+/// - parameter:  service 保存数据对应的key
 id QYGetItemFromKeychainByService(NSString * service) {
     id ret = nil;
     NSMutableDictionary *keychainQuery = getKeychainQuery(service);
@@ -42,7 +46,8 @@ id QYGetItemFromKeychainByService(NSString * service) {
     }
     return ret;
 }
-
+///从钥匙串删除数据
+/// - parameter:  service 保存数据对应的key
 void QYDeleteItemFromKeychainByService(NSString *service) {
     NSMutableDictionary *keychainQuery = getKeychainQuery(service);
     SecItemDelete((__bridge_retained CFDictionaryRef)keychainQuery);

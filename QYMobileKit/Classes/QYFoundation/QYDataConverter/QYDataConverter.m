@@ -10,15 +10,19 @@
 
 @implementation QYDataConverter
 
+///NSString转NSData
+/// - parameter: string 输入的字符串
 + (NSData *)dataWithString:(NSString *)string {
     return [string dataUsingEncoding:NSUTF8StringEncoding];
 }
-
+///NSData转NSString
+/// - parameter: data 输入的data
 + (NSString *)stringWithData:(NSData *)data {
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-
+///Dictionary转Json NSString
+/// - parameter: dic 输入的字典
 + (NSString *)jsonStringWithDictionary:(NSDictionary *)dic {
     NSError *parseError = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
@@ -28,7 +32,8 @@
     }
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
 }
-
+///jsonString转dictionary
+/// - parameter: jsonString 输入的json格式字符串
 + (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString {
     NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     NSError *parseError = nil;
@@ -39,7 +44,8 @@
     }
     return dic;
 }
-
+///data转十六进制字符串
+/// - parameter: data 输入的data
 + (NSString *)hexStringWithData:(NSData *)data {
     NSUInteger i, len;
     unsigned char *buf, *bytes;
@@ -58,7 +64,8 @@
                                         encoding:NSASCIIStringEncoding
                                     freeWhenDone:YES];
 }
-
+///HexString转NSData
+/// - parameter: hexString 输入的字符串
 + (NSData *)dataWithHexString:(NSString *)hexString {
     NSMutableData *result = [[NSMutableData alloc] init];
     int i = 0;

@@ -11,13 +11,19 @@
 
 @implementation NSData (QYDataCryptorExtensions)
 
+
+///base64算法加密NSData
 - (NSData *)base64EncodedDataForQY {
     return [self base64EncodedDataWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
 }
 
+///base64算法解密 NSString ->NSData
+/// - parameter: string解密前数据string
 - (nullable instancetype)initWithBase64EncodedString:(NSString *)base64String {
     return [[NSData alloc] initWithBase64EncodedString:base64String options:NSDataBase64DecodingIgnoreUnknownCharacters];
 }
+///aes256算法加密NSData
+/// - parameter: key 密钥
 - (NSData *)aes256EncodedDataWithKey:(NSString *)key {
     char keyPtr[kCCKeySizeAES256 + 1];
     bzero(keyPtr, sizeof(keyPtr));
@@ -38,7 +44,8 @@
     free(buffer);
     return nil;
 }
-
+///aes256算法解密NSData
+/// - parameter: key 密钥
 - (NSData *)aes256DecodedDataWithKey:(NSString *)key {
     char keyPtr[kCCKeySizeAES256+1];
     bzero(keyPtr, sizeof(keyPtr));
