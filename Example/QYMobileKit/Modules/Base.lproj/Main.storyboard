@@ -151,7 +151,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LdL-Y1-0bT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-474" y="1856"/>
+            <point key="canvasLocation" x="-466" y="1945"/>
         </scene>
         <!--File ManagerVC-->
         <scene sceneID="hmM-yj-1aS">
@@ -272,6 +272,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RhD-en-dtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1632.8" y="1197.7511244377813"/>
+        </scene>
+        <!--MdnsVC-->
+        <scene sceneID="PHe-3K-NhR">
+            <objects>
+                <viewController storyboardIdentifier="QYMdnsVC" id="02U-IR-9BO" customClass="QYMdnsVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U3s-04-CFS"/>
+                        <viewControllerLayoutGuide type="bottom" id="KbE-ny-moH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="THV-Hn-jMA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg2-2G-k99">
+                                <rect key="frame" x="113.5" y="90" width="148" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Service Mdns"/>
+                                <connections>
+                                    <action selector="startServiceMdns:" destination="02U-IR-9BO" eventType="touchUpInside" id="EjL-xz-npU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="952-p3-7y2">
+                                <rect key="frame" x="119" y="272" width="137" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Client Mdns"/>
+                                <connections>
+                                    <action selector="startClientMdns:" destination="02U-IR-9BO" eventType="touchUpInside" id="eab-S2-dNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlk-ZC-nut">
+                                <rect key="frame" x="114.5" y="161" width="146" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop Service Mdns"/>
+                                <connections>
+                                    <action selector="stopServiceMdns:" destination="02U-IR-9BO" eventType="touchUpInside" id="T0o-jF-2n9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjW-Zr-QmZ">
+                                <rect key="frame" x="120" y="343" width="135" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop Client Mdns"/>
+                                <connections>
+                                    <action selector="stopClientMdns:" destination="02U-IR-9BO" eventType="touchUpInside" id="rXo-VJ-K2B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hg2-2G-k99" firstAttribute="top" secondItem="U3s-04-CFS" secondAttribute="bottom" constant="90" id="1qS-I9-6Ud"/>
+                            <constraint firstItem="Hg2-2G-k99" firstAttribute="centerX" secondItem="THV-Hn-jMA" secondAttribute="centerX" id="3VB-7a-cL1"/>
+                            <constraint firstItem="952-p3-7y2" firstAttribute="centerX" secondItem="THV-Hn-jMA" secondAttribute="centerX" id="LSi-4H-c5E"/>
+                            <constraint firstItem="FjW-Zr-QmZ" firstAttribute="top" secondItem="952-p3-7y2" secondAttribute="bottom" constant="40" id="SUQ-mS-MUW"/>
+                            <constraint firstItem="dlk-ZC-nut" firstAttribute="top" secondItem="Hg2-2G-k99" secondAttribute="bottom" constant="40" id="Sxu-dm-ISl"/>
+                            <constraint firstItem="dlk-ZC-nut" firstAttribute="centerX" secondItem="THV-Hn-jMA" secondAttribute="centerX" id="VQb-tS-ynL"/>
+                            <constraint firstItem="952-p3-7y2" firstAttribute="top" secondItem="dlk-ZC-nut" secondAttribute="bottom" constant="80" id="bY1-Xv-RJY"/>
+                            <constraint firstItem="FjW-Zr-QmZ" firstAttribute="centerX" secondItem="THV-Hn-jMA" secondAttribute="centerX" id="qYc-wl-DOx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uc3-gV-VIU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2364" y="1198"/>
         </scene>
     </scenes>
     <resources>
