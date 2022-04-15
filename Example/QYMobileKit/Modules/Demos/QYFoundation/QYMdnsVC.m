@@ -63,6 +63,11 @@
 
 
 #pragma mark - NetServiceBrowser
+///开启mdns，无论是服务端还是客户端都需要配置mdns的权限，在info文件里配置mdns全线：
+///<key>NSBonjourServices</key>
+///<array>
+///    <string>_wled._tcp</string>
+///</array>
 - (IBAction)startClientMdns:(id)sender {
     if (!self.serviceBrowser) {
         self.serviceBrowser = [[NSNetServiceBrowser alloc] init];
