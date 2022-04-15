@@ -335,6 +335,68 @@
             </objects>
             <point key="canvasLocation" x="2364" y="1198"/>
         </scene>
+        <!--SocketVC-->
+        <scene sceneID="U99-c2-Vbd">
+            <objects>
+                <viewController storyboardIdentifier="QYSocketVC" id="gym-Jy-Clp" customClass="QYSocketVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r9o-s0-079"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kwx-35-iOF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jvx-li-tam">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxx-Lg-cnZ">
+                                <rect key="frame" x="117" y="90" width="141" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start UDP Service"/>
+                                <connections>
+                                    <action selector="startUDPService:" destination="gym-Jy-Clp" eventType="touchUpInside" id="KAe-Of-oEw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQ6-tf-ABO">
+                                <rect key="frame" x="122.5" y="161" width="130" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start UDP Client"/>
+                                <connections>
+                                    <action selector="startUDPClient:" destination="gym-Jy-Clp" eventType="touchUpInside" id="eb0-iM-ZeS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijh-7F-Dzr">
+                                <rect key="frame" x="85" y="257" width="139" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start TCP Service"/>
+                                <connections>
+                                    <action selector="startTCPService:" destination="gym-Jy-Clp" eventType="touchUpInside" id="oEU-8e-Sdf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ct-tB-Tao">
+                                <rect key="frame" x="105" y="348" width="128" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start TCP Client"/>
+                                <connections>
+                                    <action selector="startTCPClient:" destination="gym-Jy-Clp" eventType="touchUpInside" id="cOr-fD-Cd4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aQ6-tf-ABO" firstAttribute="top" secondItem="rxx-Lg-cnZ" secondAttribute="bottom" constant="40" id="AcO-BN-rMV"/>
+                            <constraint firstItem="Ijh-7F-Dzr" firstAttribute="top" secondItem="aQ6-tf-ABO" secondAttribute="bottom" constant="80" id="EcZ-K8-4Hk"/>
+                            <constraint firstItem="5ct-tB-Tao" firstAttribute="centerX" secondItem="Jvx-li-tam" secondAttribute="centerX" id="LFC-qM-FLm"/>
+                            <constraint firstItem="5ct-tB-Tao" firstAttribute="top" secondItem="Ijh-7F-Dzr" secondAttribute="bottom" constant="40" id="N9j-xv-i4D"/>
+                            <constraint firstItem="rxx-Lg-cnZ" firstAttribute="centerX" secondItem="Jvx-li-tam" secondAttribute="centerX" id="QjZ-Ga-mhB"/>
+                            <constraint firstItem="aQ6-tf-ABO" firstAttribute="centerX" secondItem="Jvx-li-tam" secondAttribute="centerX" id="bMo-OR-Cju"/>
+                            <constraint firstItem="rxx-Lg-cnZ" firstAttribute="top" secondItem="r9o-s0-079" secondAttribute="bottom" constant="90" id="oQ5-Vz-LTf"/>
+                            <constraint firstItem="Ijh-7F-Dzr" firstAttribute="centerX" secondItem="Jvx-li-tam" secondAttribute="centerX" id="xQF-nK-hz5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWJ-wk-6y3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3098" y="1198"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

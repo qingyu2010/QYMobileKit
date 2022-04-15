@@ -14,6 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QYAppDelegate.m */; };
+		D006959A280983E5002B5CAB /* QYSocketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0069599280983E5002B5CAB /* QYSocketVC.m */; };
 		D02F266B27C083D300AD7430 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D02F266A27C083D300AD7430 /* Settings.bundle */; };
 		D03A96B627E75414003BA005 /* QYThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A96B527E75414003BA005 /* QYThreadVC.m */; };
 		D06E908227E6023200722647 /* QYDeviceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E908127E6023200722647 /* QYDeviceInfoVC.m */; };
@@ -41,6 +42,8 @@
 		6003F59C195388D20070C39A /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
 		A026EF43026A68F4968338D7 /* QYMobileKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYMobileKit.podspec; path = ../QYMobileKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0069598280983E5002B5CAB /* QYSocketVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYSocketVC.h; sourceTree = "<group>"; };
+		D0069599280983E5002B5CAB /* QYSocketVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYSocketVC.m; sourceTree = "<group>"; };
 		D02F266A27C083D300AD7430 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D03A96B427E75414003BA005 /* QYThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYThreadVC.h; sourceTree = "<group>"; };
 		D03A96B527E75414003BA005 /* QYThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYThreadVC.m; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 				D03A96B527E75414003BA005 /* QYThreadVC.m */,
 				D08BE5502806583600936AEC /* QYMdnsVC.h */,
 				D08BE5512806583600936AEC /* QYMdnsVC.m */,
+				D0069598280983E5002B5CAB /* QYSocketVC.h */,
+				D0069599280983E5002B5CAB /* QYSocketVC.m */,
 			);
 			path = QYFoundation;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				D06E908527E61A2000722647 /* QYMBProgressHUDVC.m in Sources */,
 				D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */,
 				D03A96B627E75414003BA005 /* QYThreadVC.m in Sources */,
+				D006959A280983E5002B5CAB /* QYSocketVC.m in Sources */,
 				D0FA329D27E42E5900B4E5A3 /* QYFileManagerVC.m in Sources */,
 				D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */,
 			);
