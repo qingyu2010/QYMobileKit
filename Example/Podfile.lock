@@ -17,9 +17,10 @@ PODS:
   - MBProgressHUD (1.2.0)
   - QYMobileKit (0.14.0):
     - AFNetworking (~> 4.0.1)
-    - MBProgressHUD
 
 DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - MBProgressHUD
   - QYMobileKit (from `../`)
 
 SPEC REPOS:
@@ -34,8 +35,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  QYMobileKit: 28c3fcea31514de4094bb2a855724fad0d6e3e2a
+  QYMobileKit: 3e20590f9019dd1a339292268db5e537b39f4d81
 
-PODFILE CHECKSUM: 6fa3aea82aa22fb9c66d8886cb10d66db94ab46c
+PODFILE CHECKSUM: a6f82865eefd2b7a15227cbba18f8639d56dda2d
 
 COCOAPODS: 1.11.2
