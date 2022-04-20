@@ -7,8 +7,11 @@
 //
 
 #import "QYHttpRequestVC.h"
+#import "QYServerURL.h"
 
 @interface QYHttpRequestVC ()
+
+@property(nonatomic, strong) NSURLConnection *conn;
 
 @end
 
@@ -19,14 +22,28 @@
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+///NSURLConnection 同步请求
+///需要配置下面权限
+///<key>NSAppTransportSecurity</key>
+///<dict>
+///    <key>NSAllowsArbitraryLoads</key>
+///    <true/>
+///</dict>
+- (IBAction)synchronousRequest:(id)sender {
+    NSURL *url = [NSURL URLWithString:GetWeatherInfo];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSHTTPURLResponse *response = nil;
+    NSError *error = nil;
+    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    NSError *parseError = nil;
+    NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingFragmentsAllowed error:&parseError];
+    NSLog(@"response: %@",dic);
+    BOOL isJson = [NSJSONSerialization isValidJSONObject:dic];
 }
-*/
 
+///NSURLConnection 异步请求
+- (IBAction)asynchronousRequest:(id)sender {
+    
+}
 @end

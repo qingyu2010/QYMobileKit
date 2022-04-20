@@ -20,6 +20,7 @@
 		D06E908227E6023200722647 /* QYDeviceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E908127E6023200722647 /* QYDeviceInfoVC.m */; };
 		D06E908527E61A2000722647 /* QYMBProgressHUDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E908427E61A2000722647 /* QYMBProgressHUDVC.m */; };
 		D08BE5522806583600936AEC /* QYMdnsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D08BE5512806583600936AEC /* QYMdnsVC.m */; };
+		D0D59C2E280F99A5004EE80B /* QYHttpRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D59C2D280F99A5004EE80B /* QYHttpRequestVC.m */; };
 		D0FA327627E4297000B4E5A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327527E4297000B4E5A3 /* Images.xcassets */; };
 		D0FA328827E4299900B4E5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327B27E4299900B4E5A3 /* LaunchScreen.storyboard */; };
 		D0FA328927E4299900B4E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FA327D27E4299900B4E5A3 /* Main.storyboard */; };
@@ -53,6 +54,9 @@
 		D06E908427E61A2000722647 /* QYMBProgressHUDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMBProgressHUDVC.m; sourceTree = "<group>"; };
 		D08BE5502806583600936AEC /* QYMdnsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYMdnsVC.h; sourceTree = "<group>"; };
 		D08BE5512806583600936AEC /* QYMdnsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYMdnsVC.m; sourceTree = "<group>"; };
+		D0D59C2B280F98C7004EE80B /* QYServerURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYServerURL.h; sourceTree = "<group>"; };
+		D0D59C2C280F99A5004EE80B /* QYHttpRequestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYHttpRequestVC.h; sourceTree = "<group>"; };
+		D0D59C2D280F99A5004EE80B /* QYHttpRequestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYHttpRequestVC.m; sourceTree = "<group>"; };
 		D0FA327527E4297000B4E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0FA327C27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FA327E27E4299900B4E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		D0FA327727E4299900B4E5A3 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				D0D59C2B280F98C7004EE80B /* QYServerURL.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -248,6 +253,8 @@
 				D08BE5512806583600936AEC /* QYMdnsVC.m */,
 				D0069598280983E5002B5CAB /* QYSocketVC.h */,
 				D0069599280983E5002B5CAB /* QYSocketVC.m */,
+				D0D59C2C280F99A5004EE80B /* QYHttpRequestVC.h */,
+				D0D59C2D280F99A5004EE80B /* QYHttpRequestVC.m */,
 			);
 			path = QYFoundation;
 			sourceTree = "<group>";
@@ -392,6 +399,7 @@
 				D0FA329C27E42E5900B4E5A3 /* QYTimerVC.m in Sources */,
 				D03A96B627E75414003BA005 /* QYThreadVC.m in Sources */,
 				D006959A280983E5002B5CAB /* QYSocketVC.m in Sources */,
+				D0D59C2E280F99A5004EE80B /* QYHttpRequestVC.m in Sources */,
 				D0FA329D27E42E5900B4E5A3 /* QYFileManagerVC.m in Sources */,
 				D0FA328A27E4299900B4E5A3 /* QYMainVC.m in Sources */,
 			);

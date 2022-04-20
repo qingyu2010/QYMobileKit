@@ -397,6 +397,48 @@
             </objects>
             <point key="canvasLocation" x="3098" y="1198"/>
         </scene>
+        <!--Http RequestVC-->
+        <scene sceneID="mku-NA-h8b">
+            <objects>
+                <viewController storyboardIdentifier="QYHttpRequestVC" id="6BM-85-iX2" customClass="QYHttpRequestVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3PX-xT-y6O"/>
+                        <viewControllerLayoutGuide type="bottom" id="vDD-AX-L5T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zTU-zU-QyD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKF-FB-kFK">
+                                <rect key="frame" x="99.5" y="50" width="176" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NSURLConnection  Syn"/>
+                                <connections>
+                                    <action selector="synchronousRequest:" destination="6BM-85-iX2" eventType="touchUpInside" id="b0v-b1-IIQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jws-Ub-heF">
+                                <rect key="frame" x="97.5" y="101" width="180" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NSURLConnection Asyn"/>
+                                <connections>
+                                    <action selector="asynchronousRequest:" destination="6BM-85-iX2" eventType="touchUpInside" id="CmJ-SB-FQs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XKF-FB-kFK" firstAttribute="top" secondItem="3PX-xT-y6O" secondAttribute="bottom" constant="50" id="9NE-G0-khL"/>
+                            <constraint firstItem="jws-Ub-heF" firstAttribute="centerX" secondItem="XKF-FB-kFK" secondAttribute="centerX" id="RL9-3l-uNH"/>
+                            <constraint firstItem="jws-Ub-heF" firstAttribute="top" secondItem="XKF-FB-kFK" secondAttribute="bottom" constant="20" id="jSO-pl-iC5"/>
+                            <constraint firstItem="XKF-FB-kFK" firstAttribute="centerX" secondItem="zTU-zU-QyD" secondAttribute="centerX" id="zrg-z6-qjH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="crE-UN-mTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3833" y="1198"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
