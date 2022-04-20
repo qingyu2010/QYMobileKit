@@ -21,8 +21,8 @@
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-///Json obj(NSDictonary or NSArray)转NSData
-/// - parameter: dic 输入的Json obj(NSDictonary or NSArray)
+///(NSDictonary or NSArray)转Json NSData
+/// - parameter: obj 输入的(NSDictonary or NSArray)
 + (nullable NSData *)dataWithJSONObject:(id)obj {
     NSError *parseError = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:obj options:NSJSONWritingPrettyPrinted error:&parseError];
@@ -32,8 +32,9 @@
     }
     return jsonData;
 }
-///Json obj(NSDictonary or NSArray)转Json NSString
-/// - parameter: dic 输入的Json obj(NSDictonary or NSArray)
+
+///(NSDictonary or NSArray)转Json NSString
+/// - parameter: obj 输入的(NSDictonary or NSArray)
 + (NSString *)jsonStringWithJSONObject:(id)obj {
     if (obj == nil) {
         return nil;
@@ -47,8 +48,8 @@
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
 }
 
-///NSData转Json obj(NSDictonary or NSArray)
-/// - parameter: jsonString 输入的json格式NSData
+///NSData转(NSDictonary or NSArray)
+/// - parameter: data 输入的json格式NSData
 + (nullable id)jsonObjectWithData:(NSData *)data {
     NSError *parseError = nil;
     id obj = nil;

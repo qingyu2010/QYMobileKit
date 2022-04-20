@@ -19,7 +19,6 @@ PODS:
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0.1)
   - MBProgressHUD
   - QYMobileKit (from `../`)
 
@@ -37,6 +36,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   QYMobileKit: 3e20590f9019dd1a339292268db5e537b39f4d81
 
-PODFILE CHECKSUM: a6f82865eefd2b7a15227cbba18f8639d56dda2d
+PODFILE CHECKSUM: fdc4f49cda57018682aca1cb3ba02cd431b991fb
 
 COCOAPODS: 1.11.2

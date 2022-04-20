@@ -20,11 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)stringWithData:(NSData *)data;
 
 ///(NSDictonary or NSArray)转Json NSData
-/// - parameter: obj 输入的Json obj(NSDictonary or NSArray)
+/// - parameter: obj 输入的(NSDictonary or NSArray)
 + (nullable NSData *)dataWithJSONObject:(id)obj;
 
 ///(NSDictonary or NSArray)转Json NSString
-/// - parameter: obj 输入的Json obj(NSDictonary or NSArray)
+/// - parameter: obj 输入的(NSDictonary or NSArray)
 + (NSString *)jsonStringWithJSONObject:(id)obj;
 
 ///NSData转(NSDictonary or NSArray)
