@@ -21,28 +21,53 @@
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-///Dictionary转Json NSString
-/// - parameter: dic 输入的字典
-+ (NSString *)jsonStringWithDictionary:(NSDictionary *)dic {
+///Json obj(NSDictonary or NSArray)转NSData
+/// - parameter: dic 输入的Json obj(NSDictonary or NSArray)
++ (nullable NSData *)dataWithJSONObject:(id)obj {
     NSError *parseError = nil;
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:obj options:NSJSONWritingPrettyPrinted error:&parseError];
     if (parseError) {
         QYLog(@"DictionaryToJsonString fail! %@",[parseError description]);
         return nil;
     }
-    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    return jsonData;
 }
-///jsonString转dictionary
-/// - parameter: jsonString 输入的json格式字符串
-+ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString {
-    NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
-    NSError *parseError = nil;
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&parseError];
-    if (parseError) {
-        QYLog(@"JsonStringToDictionary fail! %@",[parseError description]);
+///Json obj(NSDictonary or NSArray)转Json NSString
+/// - parameter: dic 输入的Json obj(NSDictonary or NSArray)
++ (NSString *)jsonStringWithJSONObject:(id)obj {
+    if (obj == nil) {
         return nil;
     }
-    return dic;
+    
+    NSData *jsonData = [QYDataConverter dataWithJSONObject:obj];
+    if (!jsonData) {
+        QYLog(@"jsonStringWithJSONObject fail! ");
+        return nil;
+    }
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+}
+
+///NSData转Json obj(NSDictonary or NSArray)
+/// - parameter: jsonString 输入的json格式NSData
++ (nullable id)jsonObjectWithData:(NSData *)data {
+    NSError *parseError = nil;
+    id obj = nil;
+    obj = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&parseError];
+    if (parseError) {
+        QYLog(@"JSONObjectWithData fail! %@",[parseError description]);
+        return nil;
+    }
+    return obj;
+}
+///jsonString转Json obj(NSDictonary or NSArray)
+/// - parameter: jsonString 输入的json格式字符串
++ (nullable id)jsonObjectWithString:(NSString *)jsonString {
+    id obj = nil;
+    if (jsonString.length > 0) {
+        NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
+        obj = [QYDataConverter jsonObjectWithData:jsonData];
+    }
+    return obj;
 }
 ///data转十六进制字符串
 /// - parameter: data 输入的data

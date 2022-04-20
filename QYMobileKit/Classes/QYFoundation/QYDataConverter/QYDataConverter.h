@@ -19,14 +19,21 @@ NS_ASSUME_NONNULL_BEGIN
 /// - parameter: data 输入的data
 + (NSString *)stringWithData:(NSData *)data;
 
+///(NSDictonary or NSArray)转Json NSData
+/// - parameter: obj 输入的Json obj(NSDictonary or NSArray)
++ (nullable NSData *)dataWithJSONObject:(id)obj;
 
-///Dictionary转Json NSString
-/// - parameter: dic 输入的字典
-+ (NSString *)jsonStringWithDictionary:(NSDictionary *)dic;
+///(NSDictonary or NSArray)转Json NSString
+/// - parameter: obj 输入的Json obj(NSDictonary or NSArray)
++ (NSString *)jsonStringWithJSONObject:(id)obj;
 
-///jsonString转dictionary
+///NSData转(NSDictonary or NSArray)
+/// - parameter: data 输入的json格式NSData
++ (nullable id)jsonObjectWithData:(NSData *)data;
+
+///jsonString转(NSDictonary or NSArray)
 /// - parameter: jsonString 输入的json格式字符串
-+ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
++ (nullable id)jsonObjectWithString:(NSString *)jsonString;
 
 ///data转十六进制字符串
 /// - parameter: data 输入的data
