@@ -602,6 +602,7 @@
 					"$(inherited)",
 					"-framework",
 					"\"AFNetworking\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.razer.QYMobileKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -637,6 +638,7 @@
 					"$(inherited)",
 					"-framework",
 					"\"AFNetworking\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.razer.QYMobileKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
