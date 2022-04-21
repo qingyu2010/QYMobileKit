@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'QYMobileKit'
 ```
 
+## Carthage
+
+```ruby
+github  "qingyu2010/QYMobileKit"
+```
+
 ## Author
 
 qingyu2010, 578622889@qq.com
