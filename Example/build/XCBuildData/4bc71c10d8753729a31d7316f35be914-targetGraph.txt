@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+AFNetworking in Pods, no dependencies
+MBProgressHUD in Pods, no dependencies
+QYMobileKit in Pods, depends on:
+AFNetworking in Pods (explicit)
+MBProgressHUD in Pods (explicit)
+Pods-QYMobileKit_Example in Pods, depends on:
+AFNetworking in Pods (explicit)
+MBProgressHUD in Pods (explicit)
+QYMobileKit in Pods (explicit)

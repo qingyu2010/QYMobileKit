@@ -1,0 +1,55 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9853a735b3dbcb86fa532787dbbe741ba1"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98e7b390481eed36e82336f0f81154713e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98a46fc05d336f2598c1a326c1b455233e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e989818df801e359d74ba4cdf6a5ca14436"
+    }
+  ],
+  "containerPath" : "/Users/peter/Desktop/qingyu/working/github/framework/QYMobileKit/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/peter/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/peter/Library/Developer/Xcode/DerivedData/Pods-fxyhennkinmofsgnkgkcjtxtbwcm/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/peter/Library/Developer/Xcode/DerivedData/Pods-fxyhennkinmofsgnkgkcjtxtbwcm/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
