@@ -24,6 +24,7 @@
 ///(NSDictonary or NSArray)转Json NSData
 /// - parameter: obj 输入的(NSDictonary or NSArray)
 + (nullable NSData *)dataWithJSONObject:(id)obj {
+    if (!obj || obj == (id)kCFNull) return nil;
     NSError *parseError = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:obj options:NSJSONWritingPrettyPrinted error:&parseError];
     if (parseError) {
@@ -36,10 +37,7 @@
 ///(NSDictonary or NSArray)转Json NSString
 /// - parameter: obj 输入的(NSDictonary or NSArray)
 + (NSString *)jsonStringWithJSONObject:(id)obj {
-    if (obj == nil) {
-        return nil;
-    }
-    
+    if (!obj || obj == (id)kCFNull) return nil;
     NSData *jsonData = [QYDataConverter dataWithJSONObject:obj];
     if (!jsonData) {
         QYLog(@"jsonStringWithJSONObject fail! ");
@@ -51,9 +49,10 @@
 ///NSData转(NSDictonary or NSArray)
 /// - parameter: data 输入的json格式NSData
 + (nullable id)jsonObjectWithData:(NSData *)data {
+    if (!data || data == (id)kCFNull) return nil;
     NSError *parseError = nil;
     id obj = nil;
-    obj = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&parseError];
+    obj = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&parseError];
     if (parseError) {
         QYLog(@"JSONObjectWithData fail! %@",[parseError description]);
         return nil;

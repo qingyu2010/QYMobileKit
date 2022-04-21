@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CCCF6B2810F45300C80338 /* QYFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF392810F45300C80338 /* QYFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF6C2810F45300C80338 /* QYPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF3A2810F45300C80338 /* QYPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF6D2810F45300C80338 /* QYFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF3B2810F45300C80338 /* QYFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF6E2810F45300C80338 /* QYPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF3C2810F45300C80338 /* QYPathUtilities.m */; };
+		D0CCCF6F2810F45300C80338 /* QYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF3D2810F45300C80338 /* QYFileManager.m */; };
+		D0CCCF702810F45300C80338 /* QYDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF3F2810F45300C80338 /* QYDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF712810F45300C80338 /* QYDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF402810F45300C80338 /* QYDataConverter.m */; };
+		D0CCCF722810F45300C80338 /* QYBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF422810F45300C80338 /* QYBundleUtilities.m */; };
+		D0CCCF732810F45300C80338 /* QYBundleUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF432810F45300C80338 /* QYBundleUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF742810F45300C80338 /* QYLogUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF452810F45300C80338 /* QYLogUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF752810F45300C80338 /* QYLogUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF462810F45300C80338 /* QYLogUtilities.m */; };
+		D0CCCF762810F45300C80338 /* QYMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF482810F45300C80338 /* QYMathUtilities.m */; };
+		D0CCCF772810F45300C80338 /* QYMathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF492810F45300C80338 /* QYMathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF782810F45300C80338 /* QYQueueUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF4B2810F45300C80338 /* QYQueueUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF792810F45300C80338 /* QYQueueUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF4C2810F45300C80338 /* QYQueueUtilities.m */; };
+		D0CCCF7A2810F45300C80338 /* QYDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF4E2810F45300C80338 /* QYDateUtilities.m */; };
+		D0CCCF7B2810F45300C80338 /* QYDateUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF4F2810F45300C80338 /* QYDateUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF7C2810F45300C80338 /* DeveloperHelper.md in Resources */ = {isa = PBXBuildFile; fileRef = D0CCCF502810F45300C80338 /* DeveloperHelper.md */; };
+		D0CCCF7D2810F45300C80338 /* QYURLRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF522810F45300C80338 /* QYURLRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF7E2810F45300C80338 /* QYURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF532810F45300C80338 /* QYURLRequestManager.m */; };
+		D0CCCF7F2810F45300C80338 /* QYFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF542810F45300C80338 /* QYFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF802810F45300C80338 /* QYStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF562810F45300C80338 /* QYStringUtilities.m */; };
+		D0CCCF812810F45300C80338 /* QYStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF572810F45300C80338 /* QYStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF822810F45300C80338 /* QYDeviceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF592810F45300C80338 /* QYDeviceUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF832810F45300C80338 /* QYDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF5A2810F45300C80338 /* QYDeviceUtilities.m */; };
+		D0CCCF842810F45300C80338 /* QYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF5C2810F45300C80338 /* QYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF852810F45300C80338 /* QYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF5D2810F45300C80338 /* QYTimer.m */; };
+		D0CCCF862810F45300C80338 /* QYTimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF5F2810F45300C80338 /* QYTimeUtilities.m */; };
+		D0CCCF872810F45300C80338 /* QYTimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF602810F45300C80338 /* QYTimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF882810F45300C80338 /* QYDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF622810F45300C80338 /* QYDataUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF892810F45300C80338 /* QYDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF632810F45300C80338 /* QYDataUtilities.m */; };
+		D0CCCF8A2810F45300C80338 /* QYKeyChainUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCCF652810F45300C80338 /* QYKeyChainUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCCF8B2810F45300C80338 /* QYKeyChainUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCCF662810F45300C80338 /* QYKeyChainUtilities.m */; };
+		EC99E6E58809416B24006F46 /* Pods_QYMobileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A76DC66F234DB848FE1907 /* Pods_QYMobileKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24A76DC66F234DB848FE1907 /* Pods_QYMobileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMobileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6193E88E5A1BDB470060BD0D /* Pods-QYMobileKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit.release.xcconfig"; path = "Target Support Files/Pods-QYMobileKit/Pods-QYMobileKit.release.xcconfig"; sourceTree = "<group>"; };
+		C0AF9DD90B1D08F8D1FDC076 /* Pods-QYMobileKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMobileKit.debug.xcconfig"; path = "Target Support Files/Pods-QYMobileKit/Pods-QYMobileKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D0CCCF2B2810F18800C80338 /* QYMobileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QYMobileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CCCF392810F45300C80338 /* QYFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFile.h; sourceTree = "<group>"; };
+		D0CCCF3A2810F45300C80338 /* QYPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPathUtilities.h; sourceTree = "<group>"; };
+		D0CCCF3B2810F45300C80338 /* QYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFileManager.h; sourceTree = "<group>"; };
+		D0CCCF3C2810F45300C80338 /* QYPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPathUtilities.m; sourceTree = "<group>"; };
+		D0CCCF3D2810F45300C80338 /* QYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYFileManager.m; sourceTree = "<group>"; };
+		D0CCCF3F2810F45300C80338 /* QYDataConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataConverter.h; sourceTree = "<group>"; };
+		D0CCCF402810F45300C80338 /* QYDataConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataConverter.m; sourceTree = "<group>"; };
+		D0CCCF422810F45300C80338 /* QYBundleUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBundleUtilities.m; sourceTree = "<group>"; };
+		D0CCCF432810F45300C80338 /* QYBundleUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBundleUtilities.h; sourceTree = "<group>"; };
+		D0CCCF452810F45300C80338 /* QYLogUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLogUtilities.h; sourceTree = "<group>"; };
+		D0CCCF462810F45300C80338 /* QYLogUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLogUtilities.m; sourceTree = "<group>"; };
+		D0CCCF482810F45300C80338 /* QYMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMathUtilities.m; sourceTree = "<group>"; };
+		D0CCCF492810F45300C80338 /* QYMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMathUtilities.h; sourceTree = "<group>"; };
+		D0CCCF4B2810F45300C80338 /* QYQueueUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYQueueUtilities.h; sourceTree = "<group>"; };
+		D0CCCF4C2810F45300C80338 /* QYQueueUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYQueueUtilities.m; sourceTree = "<group>"; };
+		D0CCCF4E2810F45300C80338 /* QYDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDateUtilities.m; sourceTree = "<group>"; };
+		D0CCCF4F2810F45300C80338 /* QYDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDateUtilities.h; sourceTree = "<group>"; };
+		D0CCCF502810F45300C80338 /* DeveloperHelper.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DeveloperHelper.md; sourceTree = "<group>"; };
+		D0CCCF522810F45300C80338 /* QYURLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYURLRequestManager.h; sourceTree = "<group>"; };
+		D0CCCF532810F45300C80338 /* QYURLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYURLRequestManager.m; sourceTree = "<group>"; };
+		D0CCCF542810F45300C80338 /* QYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYFoundation.h; sourceTree = "<group>"; };
+		D0CCCF562810F45300C80338 /* QYStringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStringUtilities.m; sourceTree = "<group>"; };
+		D0CCCF572810F45300C80338 /* QYStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStringUtilities.h; sourceTree = "<group>"; };
+		D0CCCF592810F45300C80338 /* QYDeviceUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDeviceUtilities.h; sourceTree = "<group>"; };
+		D0CCCF5A2810F45300C80338 /* QYDeviceUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDeviceUtilities.m; sourceTree = "<group>"; };
+		D0CCCF5C2810F45300C80338 /* QYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimer.h; sourceTree = "<group>"; };
+		D0CCCF5D2810F45300C80338 /* QYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimer.m; sourceTree = "<group>"; };
+		D0CCCF5F2810F45300C80338 /* QYTimeUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTimeUtilities.m; sourceTree = "<group>"; };
+		D0CCCF602810F45300C80338 /* QYTimeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTimeUtilities.h; sourceTree = "<group>"; };
+		D0CCCF622810F45300C80338 /* QYDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataUtilities.h; sourceTree = "<group>"; };
+		D0CCCF632810F45300C80338 /* QYDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataUtilities.m; sourceTree = "<group>"; };
+		D0CCCF652810F45300C80338 /* QYKeyChainUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYKeyChainUtilities.h; sourceTree = "<group>"; };
+		D0CCCF662810F45300C80338 /* QYKeyChainUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYKeyChainUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CCCF282810F18800C80338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC99E6E58809416B24006F46 /* Pods_QYMobileKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A54BEAEA1B8AF794B7AE7E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0AF9DD90B1D08F8D1FDC076 /* Pods-QYMobileKit.debug.xcconfig */,
+				6193E88E5A1BDB470060BD0D /* Pods-QYMobileKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		26C04A5C1F9B2B27F327BBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A76DC66F234DB848FE1907 /* Pods_QYMobileKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0CCCF212810F18800C80338 = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF352810F45300C80338 /* QYMobileKit */,
+				D0CCCF2C2810F18800C80338 /* Products */,
+				1A54BEAEA1B8AF794B7AE7E9 /* Pods */,
+				26C04A5C1F9B2B27F327BBDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CCCF2C2810F18800C80338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF2B2810F18800C80338 /* QYMobileKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CCCF352810F45300C80338 /* QYMobileKit */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF362810F45300C80338 /* Classes */,
+				D0CCCF692810F45300C80338 /* Assets */,
+			);
+			name = QYMobileKit;
+			path = ../QYMobileKit;
+			sourceTree = "<group>";
+		};
+		D0CCCF362810F45300C80338 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF372810F45300C80338 /* QYFoundation */,
+				D0CCCF682810F45300C80338 /* QYUIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0CCCF372810F45300C80338 /* QYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF382810F45300C80338 /* QYFile */,
+				D0CCCF3E2810F45300C80338 /* QYDataConverter */,
+				D0CCCF412810F45300C80338 /* QYBundle */,
+				D0CCCF442810F45300C80338 /* QYLog */,
+				D0CCCF472810F45300C80338 /* QYMath */,
+				D0CCCF4A2810F45300C80338 /* QYQueue */,
+				D0CCCF4D2810F45300C80338 /* QYDate */,
+				D0CCCF502810F45300C80338 /* DeveloperHelper.md */,
+				D0CCCF512810F45300C80338 /* QYURLRequest */,
+				D0CCCF542810F45300C80338 /* QYFoundation.h */,
+				D0CCCF552810F45300C80338 /* QYString */,
+				D0CCCF582810F45300C80338 /* QYDevice */,
+				D0CCCF5B2810F45300C80338 /* QYTimer */,
+				D0CCCF5E2810F45300C80338 /* QYTime */,
+				D0CCCF612810F45300C80338 /* QYData */,
+				D0CCCF642810F45300C80338 /* QYKeyChain */,
+			);
+			path = QYFoundation;
+			sourceTree = "<group>";
+		};
+		D0CCCF382810F45300C80338 /* QYFile */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF392810F45300C80338 /* QYFile.h */,
+				D0CCCF3A2810F45300C80338 /* QYPathUtilities.h */,
+				D0CCCF3B2810F45300C80338 /* QYFileManager.h */,
+				D0CCCF3C2810F45300C80338 /* QYPathUtilities.m */,
+				D0CCCF3D2810F45300C80338 /* QYFileManager.m */,
+			);
+			path = QYFile;
+			sourceTree = "<group>";
+		};
+		D0CCCF3E2810F45300C80338 /* QYDataConverter */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF3F2810F45300C80338 /* QYDataConverter.h */,
+				D0CCCF402810F45300C80338 /* QYDataConverter.m */,
+			);
+			path = QYDataConverter;
+			sourceTree = "<group>";
+		};
+		D0CCCF412810F45300C80338 /* QYBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF422810F45300C80338 /* QYBundleUtilities.m */,
+				D0CCCF432810F45300C80338 /* QYBundleUtilities.h */,
+			);
+			path = QYBundle;
+			sourceTree = "<group>";
+		};
+		D0CCCF442810F45300C80338 /* QYLog */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF452810F45300C80338 /* QYLogUtilities.h */,
+				D0CCCF462810F45300C80338 /* QYLogUtilities.m */,
+			);
+			path = QYLog;
+			sourceTree = "<group>";
+		};
+		D0CCCF472810F45300C80338 /* QYMath */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF482810F45300C80338 /* QYMathUtilities.m */,
+				D0CCCF492810F45300C80338 /* QYMathUtilities.h */,
+			);
+			path = QYMath;
+			sourceTree = "<group>";
+		};
+		D0CCCF4A2810F45300C80338 /* QYQueue */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF4B2810F45300C80338 /* QYQueueUtilities.h */,
+				D0CCCF4C2810F45300C80338 /* QYQueueUtilities.m */,
+			);
+			path = QYQueue;
+			sourceTree = "<group>";
+		};
+		D0CCCF4D2810F45300C80338 /* QYDate */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF4E2810F45300C80338 /* QYDateUtilities.m */,
+				D0CCCF4F2810F45300C80338 /* QYDateUtilities.h */,
+			);
+			path = QYDate;
+			sourceTree = "<group>";
+		};
+		D0CCCF512810F45300C80338 /* QYURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF522810F45300C80338 /* QYURLRequestManager.h */,
+				D0CCCF532810F45300C80338 /* QYURLRequestManager.m */,
+			);
+			path = QYURLRequest;
+			sourceTree = "<group>";
+		};
+		D0CCCF552810F45300C80338 /* QYString */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF562810F45300C80338 /* QYStringUtilities.m */,
+				D0CCCF572810F45300C80338 /* QYStringUtilities.h */,
+			);
+			path = QYString;
+			sourceTree = "<group>";
+		};
+		D0CCCF582810F45300C80338 /* QYDevice */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF592810F45300C80338 /* QYDeviceUtilities.h */,
+				D0CCCF5A2810F45300C80338 /* QYDeviceUtilities.m */,
+			);
+			path = QYDevice;
+			sourceTree = "<group>";
+		};
+		D0CCCF5B2810F45300C80338 /* QYTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF5C2810F45300C80338 /* QYTimer.h */,
+				D0CCCF5D2810F45300C80338 /* QYTimer.m */,
+			);
+			path = QYTimer;
+			sourceTree = "<group>";
+		};
+		D0CCCF5E2810F45300C80338 /* QYTime */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF5F2810F45300C80338 /* QYTimeUtilities.m */,
+				D0CCCF602810F45300C80338 /* QYTimeUtilities.h */,
+			);
+			path = QYTime;
+			sourceTree = "<group>";
+		};
+		D0CCCF612810F45300C80338 /* QYData */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF622810F45300C80338 /* QYDataUtilities.h */,
+				D0CCCF632810F45300C80338 /* QYDataUtilities.m */,
+			);
+			path = QYData;
+			sourceTree = "<group>";
+		};
+		D0CCCF642810F45300C80338 /* QYKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCCF652810F45300C80338 /* QYKeyChainUtilities.h */,
+				D0CCCF662810F45300C80338 /* QYKeyChainUtilities.m */,
+			);
+			path = QYKeyChain;
+			sourceTree = "<group>";
+		};
+		D0CCCF682810F45300C80338 /* QYUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QYUIKit;
+			sourceTree = "<group>";
+		};
+		D0CCCF692810F45300C80338 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0CCCF262810F18800C80338 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CCCF732810F45300C80338 /* QYBundleUtilities.h in Headers */,
+				D0CCCF8A2810F45300C80338 /* QYKeyChainUtilities.h in Headers */,
+				D0CCCF7F2810F45300C80338 /* QYFoundation.h in Headers */,
+				D0CCCF6D2810F45300C80338 /* QYFileManager.h in Headers */,
+				D0CCCF742810F45300C80338 /* QYLogUtilities.h in Headers */,
+				D0CCCF782810F45300C80338 /* QYQueueUtilities.h in Headers */,
+				D0CCCF772810F45300C80338 /* QYMathUtilities.h in Headers */,
+				D0CCCF842810F45300C80338 /* QYTimer.h in Headers */,
+				D0CCCF882810F45300C80338 /* QYDataUtilities.h in Headers */,
+				D0CCCF6C2810F45300C80338 /* QYPathUtilities.h in Headers */,
+				D0CCCF7D2810F45300C80338 /* QYURLRequestManager.h in Headers */,
+				D0CCCF6B2810F45300C80338 /* QYFile.h in Headers */,
+				D0CCCF7B2810F45300C80338 /* QYDateUtilities.h in Headers */,
+				D0CCCF812810F45300C80338 /* QYStringUtilities.h in Headers */,
+				D0CCCF822810F45300C80338 /* QYDeviceUtilities.h in Headers */,
+				D0CCCF702810F45300C80338 /* QYDataConverter.h in Headers */,
+				D0CCCF872810F45300C80338 /* QYTimeUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D0CCCF2A2810F18800C80338 /* QYMobileKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CCCF322810F18800C80338 /* Build configuration list for PBXNativeTarget "QYMobileKit" */;
+			buildPhases = (
+				13710029176A38149FFF00E2 /* [CP] Check Pods Manifest.lock */,
+				D0CCCF262810F18800C80338 /* Headers */,
+				D0CCCF272810F18800C80338 /* Sources */,
+				D0CCCF282810F18800C80338 /* Frameworks */,
+				D0CCCF292810F18800C80338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYMobileKit;
+			productName = QYMobileKit;
+			productReference = D0CCCF2B2810F18800C80338 /* QYMobileKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CCCF222810F18800C80338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D0CCCF2A2810F18800C80338 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D0CCCF252810F18800C80338 /* Build configuration list for PBXProject "QYMobileKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CCCF212810F18800C80338;
+			productRefGroup = D0CCCF2C2810F18800C80338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CCCF2A2810F18800C80338 /* QYMobileKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CCCF292810F18800C80338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CCCF7C2810F45300C80338 /* DeveloperHelper.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13710029176A38149FFF00E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYMobileKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CCCF272810F18800C80338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CCCF832810F45300C80338 /* QYDeviceUtilities.m in Sources */,
+				D0CCCF7A2810F45300C80338 /* QYDateUtilities.m in Sources */,
+				D0CCCF8B2810F45300C80338 /* QYKeyChainUtilities.m in Sources */,
+				D0CCCF7E2810F45300C80338 /* QYURLRequestManager.m in Sources */,
+				D0CCCF6E2810F45300C80338 /* QYPathUtilities.m in Sources */,
+				D0CCCF6F2810F45300C80338 /* QYFileManager.m in Sources */,
+				D0CCCF862810F45300C80338 /* QYTimeUtilities.m in Sources */,
+				D0CCCF892810F45300C80338 /* QYDataUtilities.m in Sources */,
+				D0CCCF752810F45300C80338 /* QYLogUtilities.m in Sources */,
+				D0CCCF722810F45300C80338 /* QYBundleUtilities.m in Sources */,
+				D0CCCF852810F45300C80338 /* QYTimer.m in Sources */,
+				D0CCCF762810F45300C80338 /* QYMathUtilities.m in Sources */,
+				D0CCCF802810F45300C80338 /* QYStringUtilities.m in Sources */,
+				D0CCCF792810F45300C80338 /* QYQueueUtilities.m in Sources */,
+				D0CCCF712810F45300C80338 /* QYDataConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0CCCF302810F18800C80338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0CCCF312810F18800C80338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0CCCF332810F18800C80338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AF9DD90B1D08F8D1FDC076 /* Pods-QYMobileKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razer.QYMobileKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0CCCF342810F18800C80338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6193E88E5A1BDB470060BD0D /* Pods-QYMobileKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razer.QYMobileKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CCCF252810F18800C80338 /* Build configuration list for PBXProject "QYMobileKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CCCF302810F18800C80338 /* Debug */,
+				D0CCCF312810F18800C80338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CCCF322810F18800C80338 /* Build configuration list for PBXNativeTarget "QYMobileKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CCCF332810F18800C80338 /* Debug */,
+				D0CCCF342810F18800C80338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CCCF222810F18800C80338 /* Project object */;
+}

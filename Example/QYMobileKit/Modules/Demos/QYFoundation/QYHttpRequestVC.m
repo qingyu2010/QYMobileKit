@@ -35,15 +35,22 @@
     NSHTTPURLResponse *response = nil;
     NSError *error = nil;
     NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-    NSError *parseError = nil;
-    NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingFragmentsAllowed error:&parseError];
+  
+    NSDictionary *dic = [QYDataConverter jsonObjectWithData:data];
     NSLog(@"response: %@",dic);
-    BOOL isJson = [NSJSONSerialization isValidJSONObject:dic];
+    
 }
 
 ///NSURLConnection 异步请求
 - (IBAction)asynchronousRequest:(id)sender {
-    
+    NSURL *url = [NSURL URLWithString:GetWeatherInfo];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+        
+        NSDictionary *dic = [QYDataConverter jsonObjectWithData:data];
+        NSLog(@"response: %@",dic);
+    }];
 }
+
+
 @end
