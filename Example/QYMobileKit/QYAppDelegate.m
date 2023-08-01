@@ -7,13 +7,14 @@
 //
 
 #import "QYAppDelegate.h"
-
+#include <iostream>
 @implementation QYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [application setIdleTimerDisabled:YES];
+    std::cout << "2222";
     return YES;
 }
 
